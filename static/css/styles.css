@@ -3,9 +3,21 @@
   font-weight: 400;
   font-style: normal;
 }
+.rocknroll-one-regular {
+  font-family: "RocknRoll One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .login-card{
     max-width: 450px;
+    background-color: #FAFFF7;
+    border: 1px solid #B1CBA7;
+}
+.regis-h{
+    color: #86DF65;
 }
 .color-red{
    color: red;
 }
+
+
