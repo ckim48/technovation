@@ -17,33 +17,33 @@
             <h1 class="text-center mt-5 rocknroll-one-regular">HONEY BADGER</h1>
             <div class="card login-card mt-5 mx-auto px-4 py-3">
                 <div class="card-body">
-                    <form>
+                    <form action="/register" method = "POST">
                         <h1 class="text-center regis-h">Register</h1>
                         <div class="mt-4">
                             <label class="form-label"><strong>Username</strong></label>
-                            <input class="form-control" placeholder="Enter your username">
+                            <input name = "username" class="form-control" placeholder="Enter your username">
                         </div>
                         <div class="mt-3">
                             <label class="form-label"><strong>Password</strong></label>
-                            <input class="form-control" placeholder="Enter your password">
+                            <input type = "password" name ="password" class="form-control" placeholder="Enter your password">
                         </div>
                         <div class="mt-3">
                             <label class="form-label"><strong>Re-password</strong></label>
-                            <input class="form-control" placeholder="Enter your re-password">
+                            <input type = "password" class="form-control" placeholder="Enter your re-password">
                         </div>
                         <div class="mt-3">
                             <label class="form-label"><strong>Age</strong></label>
-                            <input class="form-control" placeholder="Enter your age">
+                            <input name = "age" class="form-control" placeholder="Enter your age">
                         </div>
                         <div class="mt-3">
                             <label class="form-label"><strong>Gender</strong></label>
-                            <input class="form-control" placeholder="Enter your gender">
+                            <input name = "gender" class="form-control" placeholder="Enter your gender">
                         </div>
 
 
                         {% with messages = get_flashed_messages() %}
                             {% if messages %}
-                                <p class="color-red">{{messages[0]}}</p>
+                                <p class="color-red mt-3">{{messages[0]}}</p>
                             {% endif %}
                         {% endwith %}
                         <button type="submit" class="btn btn-success mt-3">Register</button>

@@ -19,5 +19,15 @@
 .color-red{
    color: red;
 }
-
+.chart-card{
+    padding: 25px;
+background-color: rgba(244,244,244,1);
+  border: 2px solid rgba(140,140,140,1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.chart-card:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
 
