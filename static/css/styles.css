@@ -30,4 +30,11 @@ background-color: rgba(244,244,244,1);
     transform:translateY(-10px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-
+.chat-box {
+    border: 1px solid darkgray;
+    padding: 10px;
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}

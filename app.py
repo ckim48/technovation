@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 import sqlite3
 import bcrypt
 from datetime import timedelta
 import pandas
+from chatbotmain import get_response
 
 # Login X => session = {}
 # Login O => session = {"username": "scott"}
@@ -69,7 +70,13 @@ def data():
     content_distribution = data["type_of_consulting"].value_counts().to_dict()
     return render_template('data.html', gender_distribution=gender_distribution, content_distribution=content_distribution)
 
-
+@app.route('/get_response', methods=["POST"])
+def get_chatbot_response():
+    data = request.json
+    user_input = data["message"]
+    response = get_response(user_input)
+    print(response)
+    return jsonify({"response": response})
 
 
 if __name__ == '__main__':
