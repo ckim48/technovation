@@ -67,6 +67,3 @@ def get_response(user_input):
     predicted_intent = model.predict([preprocessed_input])[0]
     responses = intents_patterns[predicted_intent]["responses"]
     return random.choice(responses)
-
-user_input = "nice to meet you"
-print(get_response(user_input))
