@@ -13,7 +13,16 @@ app.secret_key = "abc"
 app.permanent_session_lifetime = timedelta(seconds=7200)
 @app.route('/')
 def index():
-    return render_template('index.html')
+    isLogin = False
+    if 'username' in session:
+        isLogin = True
+    return render_template('index.html', isLogin = isLogin)
+@app.route('/chatbot')
+def chatbot():
+    isLogin = False
+    if 'username' in session:
+        isLogin = True
+    return render_template('chatbot.html', isLogin = isLogin)
 
 @app.route('/login', methods=["GET", "POST"])
 def login():
@@ -28,7 +37,7 @@ def login():
         password = password.encode("UTF-8")
         if bcrypt.checkpw(password, result):
             session["username"] = username  #session = {"username": "scott"}
-            return redirect(url_for('data'))
+            return redirect(url_for('index'))
         flash("Wrong username or password!")
         return render_template('login.html')
     else: # method == "GET"
@@ -78,6 +87,10 @@ def get_chatbot_response():
     print(response)
     return jsonify({"response": response})
 
+@app.route('/logout', methods=["GET"])
+def logout():
+    session.clear() # {}
+    return redirect(url_for('index'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)

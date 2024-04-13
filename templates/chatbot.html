@@ -1,0 +1,57 @@
+{% extends "header.html" %}<!-- .navbar -->
+{% block chatbot %}
+
+        <div class="container mt-6 chatbot-con py-1">
+            <h3 class="text-center mt-5">AI Consultants</h3>
+            <p class="text-center">Please share your concern with an AI consultants</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="chat-box px-3 py-2" id="chat-box">
+
+                    </div>
+                    <div class="input-group mt-3">
+                        <input type="text" id="user-input" class="form-control me-sm-2" placeholder="Type a message...">
+                        <button onclick="sendMessage()" class="btn btn-outline-secondary"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        function sendMessage(){
+            // trim() --> python strip()
+            var userInput = document.getElementById("user-input").value.trim();
+            console.log(userInput);
+            if (userInput){
+                var chatBox = document.getElementById('chat-box');
+                document.getElementById("user-input").value = '';
+
+                fetch("/get_response",
+                    {
+                        method: "POST",
+                        headers:{
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({message: userInput}),
+                    }
+                )
+                .then(response => response.json())
+                .then(data => {
+                       chatBox.innerHTML += "<div class='user-chat' >User: " + userInput + "</div>";
+                       chatBox.innerHTML += "<div class='bot-chat' >Chatbot: " + data.response + "</div>";
+                })
+            }
+        }
+        var user = document.getElementById("user-input");
+        user.addEventListener("keypress", function(event) {
+            if (event.key == "Enter"){
+                event.preventDefault();
+                sendMessage();
+            }
+        });
+
+    </script>
+    </body>
+{% endblock %}
