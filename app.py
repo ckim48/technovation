@@ -16,13 +16,13 @@ def index():
     isLogin = False
     if 'username' in session:
         isLogin = True
-    return render_template('index.html', isLogin = isLogin)
+    return render_template('index.html', active_page = "index",isLogin = isLogin)
 @app.route('/chatbot')
 def chatbot():
     isLogin = False
     if 'username' in session:
         isLogin = True
-    return render_template('chatbot.html', isLogin = isLogin)
+    return render_template('chatbot.html', active_page = "consult",isLogin = isLogin)
 
 @app.route('/login', methods=["GET", "POST"])
 def login():
@@ -74,17 +74,18 @@ def register():
 
 @app.route('/data', methods=["GET", "POST"])
 def data():
+
     data = pandas.read_csv("consulting_data_content_logic.csv")
     gender_distribution = data["gender"].value_counts().to_dict()
     content_distribution = data["type_of_consulting"].value_counts().to_dict()
-    return render_template('data.html', gender_distribution=gender_distribution, content_distribution=content_distribution)
+    return render_template('data.html',active_page = "data", gender_distribution=gender_distribution, content_distribution=content_distribution)
 
 @app.route('/get_response', methods=["POST"])
 def get_chatbot_response():
     data = request.json
     user_input = data["message"]
     response = get_response(user_input)
-    time.sleep(0.5)
+
     # print(response)
     return jsonify({"response": response})
 

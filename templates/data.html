@@ -2,22 +2,45 @@
 {% block data %}
 
     <body>
-        <div class="container">
-            <div class="row mt-5">
+        <div class="container mycontainer mt-6">
+<h1 class="text-center mb-5 page-title" data-aos="fade-up">Statistics</h1>
+            <div class="row">
+
                 <div class="col-md-6">
-                    <div class="card chart-card">
+                    <div class="card chart-card" data-aos="fade-right">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Graph</h2>
-                            <p>Chart description</p>
+                            <h2 class="card-title text-center">Gender Distribution</h2>
+                            <p>Gender distribution of the users who consults with AI.</p>
                             <canvas id="barchart1"></canvas>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card chart-card">
+                    <div class="card chart-card" data-aos="fade-left">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Graph</h2>
-                            <p>Chart description</p>
+                            <h2 class="card-title text-center">Topic Distribution</h2>
+                            <p>The topic that users interest to consults with the chatbot.</p>
+                            <canvas id="barchart2"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+
+                                <div class="col-md-6 mt-md-5">
+                    <div class="card chart-card"  data-aos="fade-right">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Coming Soon...</h2>
+                            <p>.......</p>
+                            <canvas id="barchart1"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-5">
+                    <div class="card chart-card"  data-aos="fade-left">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Coming Soon...</h2>
+                           <p>.......</p>
+
                             <canvas id="barchart2"></canvas>
                         </div>
                     </div>

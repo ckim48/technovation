@@ -38,8 +38,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="{{url_for('index')}}#about">About</a></li>
-          <li><a class="nav-link scrollto" href="{{url_for('chatbot')}}">Consult</a></li>
+          <li><a class="nav-link scrollto {%if active_page == 'index' %}active{%endif%}" href="{{url_for('index')}}#about">About</a></li>
+          <li><a class="nav-link scrollto {%if active_page == 'consult' %}active{%endif%}" href="{{url_for('chatbot')}}">Consult</a></li>
+          <li><a class="nav-link scrollto {%if active_page == 'data' %}active{%endif%}" href="{{url_for('data')}}">Data</a></li>
+
           {% if isLogin %}
           <li><a class="getstarted scrollto" href="{{url_for('logout')}}">Logout</a></li>
 
@@ -57,6 +59,9 @@
   {% endblock %}
 
   {% block chatbot %}
+  {% endblock %}
+
+  {% block data %}
   {% endblock %}
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
