@@ -4,7 +4,7 @@ import bcrypt
 from datetime import timedelta
 import pandas
 from chatbotmain import get_response
-
+import time
 # Login X => session = {}
 # Login O => session = {"username": "scott"}
 
@@ -84,7 +84,8 @@ def get_chatbot_response():
     data = request.json
     user_input = data["message"]
     response = get_response(user_input)
-    print(response)
+    time.sleep(0.5)
+    # print(response)
     return jsonify({"response": response})
 
 @app.route('/logout', methods=["GET"])
