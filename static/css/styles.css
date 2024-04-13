@@ -700,6 +700,9 @@ section {
     width: 75%;
   }
 }
+.myh1:hover{
+color:#994141;
+}
 
 @media (max-width: 768px) {
   .hero {
