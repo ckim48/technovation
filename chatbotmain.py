@@ -161,7 +161,7 @@ label_dict = {
 #     for key, value in word_choices.items():
 #         template = template.replace("{" + key + "}", value)
 #     return template
-#
+
 # def generate_data(data_templates, words, label_dict):
 #     data = []
 #     for category, templates in data_templates.items():
@@ -176,29 +176,29 @@ label_dict = {
 #                 filled_template = fill_template(template, word_choices)
 #                 data.append((filled_template, label))
 #     return pd.DataFrame(data, columns=["text", "label"])
-#
+
 # df = generate_data(data_templates, words, label_dict)
 # df.to_csv("sample_data.csv")
 # tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 # model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(label_dict))
-#
+
 # tokenized_inputs = tokenizer(df['text'].tolist(), truncation=True, padding=True, max_length=512)
-#
+
 # class TextDataset(Dataset):
 #     def __init__(self, encodings, labels):
 #         self.encodings = encodings
 #         self.labels = labels
-#
+
 #     def __len__(self):
 #         return len(self.labels)
-#
+
 #     def __getitem__(self, idx):
 #         item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
 #         item['labels'] = torch.tensor(self.labels[idx])
 #         return item
-#
+
 # dataset = TextDataset(tokenized_inputs, df['label'].tolist())
-#
+
 # training_args = TrainingArguments(
 #     output_dir='./results',
 #     num_train_epochs=5,
@@ -208,20 +208,16 @@ label_dict = {
 #     logging_dir='./logs',
 #     logging_steps=10
 # )
-#
+
 # trainer = Trainer(
 #     model=model,
 #     args=training_args,
 #     train_dataset=dataset
 # )
-#
+
 # trainer.train()
 # model.save_pretrained("./saved_model")
 # tokenizer.save_pretrained("./saved_model")
-model_path = "./saved_model"
-
-tokenizer = BertTokenizer.from_pretrained(model_path)
-model = BertForSequenceClassification.from_pretrained(model_path)
 
 import re
 
@@ -231,24 +227,19 @@ def preprocess_text(text):
     text = re.sub(r"\s+", ' ', text).strip()
     return text
 
-def predict_intent(text):
+def predict_intent(text,tokenizer,model):
     text = preprocess_text(text)
     inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True)
     outputs = model(**inputs)
     predictions = torch.argmax(outputs.logits, dim=-1)
     return list(label_dict.keys())[predictions.item()]
 
-def debug_tokenization(text):
+def debug_tokenization(text,tokenizer):
     text = preprocess_text(text)
     tokens = tokenizer.tokenize(text)
     token_ids = tokenizer.convert_tokens_to_ids(tokens)
     print("Tokens:", tokens)
     print("Token IDs:", token_ids)
-
-test_input = "I'm really worried about my upcoming math exam."
-debug_tokenization(test_input)
-predicted_category = predict_intent(test_input)
-print(f"The predicted category is: {predicted_category}")
 solutions = {
     "personal": [
         "Consider setting aside some time each day for relaxation and self-reflection.",
@@ -276,9 +267,17 @@ solutions = {
         "If you feel overwhelmed, professional help such as counseling can provide significant support."
     ]
 }
-response = random.choice(solutions[predicted_category])
-print(f"Suggested action: {response}")
 
 
+def get_response(user_input):
+    model_path = "./saved_model"
+
+    tokenizer = BertTokenizer.from_pretrained(model_path)
+    model = BertForSequenceClassification.from_pretrained(model_path)
+
+    debug_tokenization(user_input,tokenizer)
+    predicted_category = predict_intent(user_input,tokenizer,model)
+    response = random.choice(solutions[predicted_category])
+    return response
 
 
