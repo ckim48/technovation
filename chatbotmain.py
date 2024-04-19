@@ -157,67 +157,67 @@ label_dict = {
     "etc": 4
 }
 
-def fill_template(template, word_choices):
-    for key, value in word_choices.items():
-        template = template.replace("{" + key + "}", value)
-    return template
-
-def generate_data(data_templates, words, label_dict):
-    data = []
-    for category, templates in data_templates.items():
-        label = label_dict[category]
-        for template in templates:
-            # Extract placeholders using regex to match text within curly braces
-            keys = re.findall(r'\{(.*?)\}', template)
-            # Generate all combinations for the placeholders
-            combinations = itertools.product(*(words[key] for key in keys))
-            for combination in combinations:
-                word_choices = dict(zip(keys, combination))
-                filled_template = fill_template(template, word_choices)
-                data.append((filled_template, label))
-    return pd.DataFrame(data, columns=["text", "label"])
-
-df = generate_data(data_templates, words, label_dict)
-df.to_csv("sample_data.csv")
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(label_dict))
-
-tokenized_inputs = tokenizer(df['text'].tolist(), truncation=True, padding=True, max_length=512)
-
-class TextDataset(Dataset):
-    def __init__(self, encodings, labels):
-        self.encodings = encodings
-        self.labels = labels
-
-    def __len__(self):
-        return len(self.labels)
-
-    def __getitem__(self, idx):
-        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
-        item['labels'] = torch.tensor(self.labels[idx])
-        return item
-
-dataset = TextDataset(tokenized_inputs, df['label'].tolist())
-
-training_args = TrainingArguments(
-    output_dir='./results',
-    num_train_epochs=5,
-    per_device_train_batch_size=16,
-    warmup_steps=500,
-    weight_decay=0.01,
-    logging_dir='./logs',
-    logging_steps=10
-)
-
-trainer = Trainer(
-    model=model,
-    args=training_args,
-    train_dataset=dataset
-)
-
-trainer.train()
-model.save_pretrained("./saved_model")
-tokenizer.save_pretrained("./saved_model")
+# def fill_template(template, word_choices):
+#     for key, value in word_choices.items():
+#         template = template.replace("{" + key + "}", value)
+#     return template
+#
+# def generate_data(data_templates, words, label_dict):
+#     data = []
+#     for category, templates in data_templates.items():
+#         label = label_dict[category]
+#         for template in templates:
+#             # Extract placeholders using regex to match text within curly braces
+#             keys = re.findall(r'\{(.*?)\}', template)
+#             # Generate all combinations for the placeholders
+#             combinations = itertools.product(*(words[key] for key in keys))
+#             for combination in combinations:
+#                 word_choices = dict(zip(keys, combination))
+#                 filled_template = fill_template(template, word_choices)
+#                 data.append((filled_template, label))
+#     return pd.DataFrame(data, columns=["text", "label"])
+#
+# df = generate_data(data_templates, words, label_dict)
+# df.to_csv("sample_data.csv")
+# tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+# model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(label_dict))
+#
+# tokenized_inputs = tokenizer(df['text'].tolist(), truncation=True, padding=True, max_length=512)
+#
+# class TextDataset(Dataset):
+#     def __init__(self, encodings, labels):
+#         self.encodings = encodings
+#         self.labels = labels
+#
+#     def __len__(self):
+#         return len(self.labels)
+#
+#     def __getitem__(self, idx):
+#         item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+#         item['labels'] = torch.tensor(self.labels[idx])
+#         return item
+#
+# dataset = TextDataset(tokenized_inputs, df['label'].tolist())
+#
+# training_args = TrainingArguments(
+#     output_dir='./results',
+#     num_train_epochs=5,
+#     per_device_train_batch_size=16,
+#     warmup_steps=500,
+#     weight_decay=0.01,
+#     logging_dir='./logs',
+#     logging_steps=10
+# )
+#
+# trainer = Trainer(
+#     model=model,
+#     args=training_args,
+#     train_dataset=dataset
+# )
+#
+# trainer.train()
+# model.save_pretrained("./saved_model")
+# tokenizer.save_pretrained("./saved_model")
 model_path = "./saved_model"
 
 tokenizer = BertTokenizer.from_pretrained(model_path)
