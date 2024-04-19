@@ -1,16 +1,16 @@
-{% extends "header.html" %}<!-- .navbar -->
+{% extends "header.html" %}
 {% block data %}
 
     <body>
         <div class="container mycontainer mt-6">
-<h1 class="text-center mb-5 page-title" data-aos="fade-up">Statistics</h1>
+            <h1 class="text-center mb-5 page-title" data-aos="fade-up">Statistics</h1>
             <div class="row">
 
                 <div class="col-md-6">
                     <div class="card chart-card" data-aos="fade-right">
                         <div class="card-body">
                             <h2 class="card-title text-center">Gender Distribution</h2>
-                            <p>Gender distribution of the users who consults with AI.</p>
+                            <p>Gender distribution of the users who consult with AI.</p>
                             <canvas id="barchart1"></canvas>
                         </div>
                     </div>
@@ -19,71 +19,142 @@
                     <div class="card chart-card" data-aos="fade-left">
                         <div class="card-body">
                             <h2 class="card-title text-center">Topic Distribution</h2>
-                            <p>The topic that users interest to consults with the chatbot.</p>
+                            <p>The topic that users are interested in consulting with the chatbot.</p>
                             <canvas id="barchart2"></canvas>
                         </div>
                     </div>
                 </div>
 
-
-                                <div class="col-md-6 mt-md-5">
+                <div class="col-md-6 mt-md-5">
                     <div class="card chart-card"  data-aos="fade-right">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Coming Soon...</h2>
-                            <p>.......</p>
-                            <canvas id="barchart1"></canvas>
+                            <h2 class="card-title text-center">Sentiment Distribution</h2>
+                            <p>Sentiment distribution of student consultations.</p>
+                            <canvas class="mx-auto" id="piechart"></canvas>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 mt-md-5">
                     <div class="card chart-card"  data-aos="fade-left">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Coming Soon...</h2>
-                           <p>.......</p>
-
-                            <canvas id="barchart2"></canvas>
+                            <h2 class="card-title text-center">Consultations in Past 7 Days</h2>
+                            <p>Number of consultations in the past 7 days.</p>
+                            <canvas id="linechart"></canvas>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
-            const ctx = document.getElementById('barchart1');
+            // Gender Distribution Chart
+            const ctx1 = document.getElementById('barchart1');
             var genderDistribution = {{ gender_distribution | tojson }};
-            var labels = Object.keys(genderDistribution);
-            var data = Object.values(genderDistribution);
-            new Chart(ctx, {
-                type:'bar',
-                data:{
-                    labels: labels,
+            var labels1 = Object.keys(genderDistribution);
+            var data1 = Object.values(genderDistribution);
+            var colors1 = ['rgba(255, 99, 132, 0.6)', 'rgba(54, 162, 235, 0.6)','rgba(89, 204, 87,0.6)']; // Define colors
+            new Chart(ctx1, {
+                type: 'bar',
+                data: {
+                    labels: labels1,
                     datasets: [{
                         label: "Sample Data",
-                        data : data
+                        data: data1,
+                        backgroundColor: colors1 // Assign colors
                     }]
-                }
-
+                },
+                    options: {
+        plugins: {
+            legend: {
+                display: false // Hide legend
+            }
+        }
+    }
             });
 
-            var contentDistribution = {{ content_distribution | tojson }};
-            var labels = Object.keys(contentDistribution);
-            var data = Object.values(contentDistribution);
-
+            // Topic Distribution Chart
             const ctx2 = document.getElementById('barchart2');
+            var contentDistribution = {{ content_distribution | tojson }};
+            var labels2 = Object.keys(contentDistribution);
+            var data2 = Object.values(contentDistribution);
+            var colors2 = ['rgba(255, 99, 132, 0.6)', 'rgba(54, 162, 235, 0.6)','rgba(89, 204, 87,0.6)','rgba(161, 87, 204,0.6)','rgba(193, 204, 87,0.6)','rgba(204, 113, 87,0.6)']; // Define colors
             new Chart(ctx2, {
-                type:'bar',
-                data:{
-                    labels:labels,
+                type: 'bar',
+                data: {
+                    labels: labels2,
                     datasets: [{
                         label: "Sample Data",
-                        data : data
+                        data: data2,
+                        backgroundColor: colors2 // Assign colors
+                    }]
+                },
+                                options: {
+                    plugins: {
+                        legend: {
+                            display: false // Hide legend
+                        }
+                    }
+                }
+            });
+
+            // Sentiment Distribution Pie Chart
+            const ctx3 = document.getElementById('piechart');
+            var sentimentDistribution = {
+                "Positive": 30,
+                "Negative": 20,
+                "Neutral": 50
+            };
+            var labels3 = Object.keys(sentimentDistribution);
+            var data3 = Object.values(sentimentDistribution);
+            new Chart(ctx3, {
+                type: 'pie',
+                data: {
+                    labels: labels3,
+                    datasets: [{
+                        label: "Sample Data",
+                        data: data3,
+                        backgroundColor: [
+                            'rgba(75, 192, 192, 0.7)',
+                            'rgba(255, 99, 132, 0.7)',
+                            'rgba(54, 162, 235, 0.7)'
+                        ]
                     }]
                 }
+            });
 
+            // Consultations in Past 7 Days Line Chart
+            const ctx4 = document.getElementById('linechart');
+            var consultationsData = {
+                "2024-04-12": 10,
+                "2024-04-13": 20,
+                "2024-04-14": 15,
+                "2024-04-15": 25,
+                "2024-04-16": 30,
+                "2024-04-17": 20,
+                "2024-04-18": 35
+            };
+            var dates = Object.keys(consultationsData);
+            var values = Object.values(consultationsData);
+            new Chart(ctx4, {
+                type: 'line',
+                data: {
+                    labels: dates,
+                    datasets: [{
+                        label: "Consultations",
+                        data: values,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
             });
         </script>
     </body>

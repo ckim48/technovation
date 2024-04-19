@@ -684,6 +684,9 @@ section {
     background-attachment: fixed;
   }
 }
+#piechart{
+    width: 50% !important;
+}
 
 @media (max-width: 991px) {
   .hero {
