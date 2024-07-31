@@ -666,7 +666,7 @@ section {
 
 .hero h1 {
   margin: 0;
-  margin-top: 50px;
+  margin-top: 85px;
   font-size: 38px;
   font-weight: 700;
   color: #363636;
@@ -707,7 +707,7 @@ section {
 }
 
 .hero .hero-img {
-      margin-top: 32px;
+      margin-top: 62px;
   text-align: right;
   border-radius: 20px;
 }

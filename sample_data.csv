@@ -1,0 +1,1743 @@
+,text,label
+0,I feel unhappy these days,0
+1,I feel stressed these days,0
+2,I feel confused these days,0
+3,I feel worried these days,0
+4,I feel anxious these days,0
+5,I feel frustrated these days,0
+6,I feel discontented these days,0
+7,I feel hopeless these days,0
+8,I feel irate these days,0
+9,I feel melancholic these days,0
+10,Sometimes I just want to be alone,0
+11,Sometimes I just want to escape,0
+12,Sometimes I just want to cry,0
+13,Sometimes I just want to scream,0
+14,Sometimes I just want to sleep,0
+15,Sometimes I just want to hide,0
+16,Sometimes I just want to relax,0
+17,Sometimes I just want to reflect,0
+18,Sometimes I just want to read,0
+19,Sometimes I just want to meditate,0
+20,I'm not sure who I can talk to about my problems,0
+21,I'm not sure who I can talk to about my feelings,0
+22,I'm not sure who I can talk to about my thoughts,0
+23,I'm not sure who I can talk to about my confusion,0
+24,I'm not sure who I can talk to about my life,0
+25,I'm not sure who I can talk to about my challenges,0
+26,I'm not sure who I can talk to about my decisions,0
+27,I'm not sure who I can talk to about my dilemmas,0
+28,I'm not sure who I can talk to about my responsibilities,0
+29,I'm not sure who I can talk to about my opportunities,0
+30,Feeling unhappy has become a daily struggle for me,0
+31,Feeling stressed has become a daily struggle for me,0
+32,Feeling confused has become a daily struggle for me,0
+33,Feeling worried has become a daily struggle for me,0
+34,Feeling anxious has become a daily struggle for me,0
+35,Feeling frustrated has become a daily struggle for me,0
+36,Feeling discontented has become a daily struggle for me,0
+37,Feeling hopeless has become a daily struggle for me,0
+38,Feeling irate has become a daily struggle for me,0
+39,Feeling melancholic has become a daily struggle for me,0
+40,I need some time to be alone because of my problems,0
+41,I need some time to be alone because of my feelings,0
+42,I need some time to be alone because of my thoughts,0
+43,I need some time to be alone because of my confusion,0
+44,I need some time to be alone because of my life,0
+45,I need some time to be alone because of my challenges,0
+46,I need some time to be alone because of my decisions,0
+47,I need some time to be alone because of my dilemmas,0
+48,I need some time to be alone because of my responsibilities,0
+49,I need some time to be alone because of my opportunities,0
+50,I need some time to escape because of my problems,0
+51,I need some time to escape because of my feelings,0
+52,I need some time to escape because of my thoughts,0
+53,I need some time to escape because of my confusion,0
+54,I need some time to escape because of my life,0
+55,I need some time to escape because of my challenges,0
+56,I need some time to escape because of my decisions,0
+57,I need some time to escape because of my dilemmas,0
+58,I need some time to escape because of my responsibilities,0
+59,I need some time to escape because of my opportunities,0
+60,I need some time to cry because of my problems,0
+61,I need some time to cry because of my feelings,0
+62,I need some time to cry because of my thoughts,0
+63,I need some time to cry because of my confusion,0
+64,I need some time to cry because of my life,0
+65,I need some time to cry because of my challenges,0
+66,I need some time to cry because of my decisions,0
+67,I need some time to cry because of my dilemmas,0
+68,I need some time to cry because of my responsibilities,0
+69,I need some time to cry because of my opportunities,0
+70,I need some time to scream because of my problems,0
+71,I need some time to scream because of my feelings,0
+72,I need some time to scream because of my thoughts,0
+73,I need some time to scream because of my confusion,0
+74,I need some time to scream because of my life,0
+75,I need some time to scream because of my challenges,0
+76,I need some time to scream because of my decisions,0
+77,I need some time to scream because of my dilemmas,0
+78,I need some time to scream because of my responsibilities,0
+79,I need some time to scream because of my opportunities,0
+80,I need some time to sleep because of my problems,0
+81,I need some time to sleep because of my feelings,0
+82,I need some time to sleep because of my thoughts,0
+83,I need some time to sleep because of my confusion,0
+84,I need some time to sleep because of my life,0
+85,I need some time to sleep because of my challenges,0
+86,I need some time to sleep because of my decisions,0
+87,I need some time to sleep because of my dilemmas,0
+88,I need some time to sleep because of my responsibilities,0
+89,I need some time to sleep because of my opportunities,0
+90,I need some time to hide because of my problems,0
+91,I need some time to hide because of my feelings,0
+92,I need some time to hide because of my thoughts,0
+93,I need some time to hide because of my confusion,0
+94,I need some time to hide because of my life,0
+95,I need some time to hide because of my challenges,0
+96,I need some time to hide because of my decisions,0
+97,I need some time to hide because of my dilemmas,0
+98,I need some time to hide because of my responsibilities,0
+99,I need some time to hide because of my opportunities,0
+100,I need some time to relax because of my problems,0
+101,I need some time to relax because of my feelings,0
+102,I need some time to relax because of my thoughts,0
+103,I need some time to relax because of my confusion,0
+104,I need some time to relax because of my life,0
+105,I need some time to relax because of my challenges,0
+106,I need some time to relax because of my decisions,0
+107,I need some time to relax because of my dilemmas,0
+108,I need some time to relax because of my responsibilities,0
+109,I need some time to relax because of my opportunities,0
+110,I need some time to reflect because of my problems,0
+111,I need some time to reflect because of my feelings,0
+112,I need some time to reflect because of my thoughts,0
+113,I need some time to reflect because of my confusion,0
+114,I need some time to reflect because of my life,0
+115,I need some time to reflect because of my challenges,0
+116,I need some time to reflect because of my decisions,0
+117,I need some time to reflect because of my dilemmas,0
+118,I need some time to reflect because of my responsibilities,0
+119,I need some time to reflect because of my opportunities,0
+120,I need some time to read because of my problems,0
+121,I need some time to read because of my feelings,0
+122,I need some time to read because of my thoughts,0
+123,I need some time to read because of my confusion,0
+124,I need some time to read because of my life,0
+125,I need some time to read because of my challenges,0
+126,I need some time to read because of my decisions,0
+127,I need some time to read because of my dilemmas,0
+128,I need some time to read because of my responsibilities,0
+129,I need some time to read because of my opportunities,0
+130,I need some time to meditate because of my problems,0
+131,I need some time to meditate because of my feelings,0
+132,I need some time to meditate because of my thoughts,0
+133,I need some time to meditate because of my confusion,0
+134,I need some time to meditate because of my life,0
+135,I need some time to meditate because of my challenges,0
+136,I need some time to meditate because of my decisions,0
+137,I need some time to meditate because of my dilemmas,0
+138,I need some time to meditate because of my responsibilities,0
+139,I need some time to meditate because of my opportunities,0
+140,My days are filled with lonely and it's hard to cope,0
+141,My days are filled with overwhelmed and it's hard to cope,0
+142,My days are filled with excited and it's hard to cope,0
+143,My days are filled with nervous and it's hard to cope,0
+144,My days are filled with sad and it's hard to cope,0
+145,My days are filled with joyful and it's hard to cope,0
+146,My days are filled with fearful and it's hard to cope,0
+147,My days are filled with content and it's hard to cope,0
+148,My days are filled with anxious and it's hard to cope,0
+149,My days are filled with hopeful and it's hard to cope,0
+150,I often worry about my future and feel unhappy,0
+151,I often worry about my future and feel stressed,0
+152,I often worry about my future and feel confused,0
+153,I often worry about my future and feel worried,0
+154,I often worry about my future and feel anxious,0
+155,I often worry about my future and feel frustrated,0
+156,I often worry about my future and feel discontented,0
+157,I often worry about my future and feel hopeless,0
+158,I often worry about my future and feel irate,0
+159,I often worry about my future and feel melancholic,0
+160,Trying to manage my emotions about problems is exhausting,0
+161,Trying to manage my emotions about feelings is exhausting,0
+162,Trying to manage my emotions about thoughts is exhausting,0
+163,Trying to manage my emotions about confusion is exhausting,0
+164,Trying to manage my emotions about life is exhausting,0
+165,Trying to manage my emotions about challenges is exhausting,0
+166,Trying to manage my emotions about decisions is exhausting,0
+167,Trying to manage my emotions about dilemmas is exhausting,0
+168,Trying to manage my emotions about responsibilities is exhausting,0
+169,Trying to manage my emotions about opportunities is exhausting,0
+170,I don't feel like I can share my true feelings with anyone,0
+171,The thought of tomorrow makes me feel unhappy,0
+172,The thought of tomorrow makes me feel stressed,0
+173,The thought of tomorrow makes me feel confused,0
+174,The thought of tomorrow makes me feel worried,0
+175,The thought of tomorrow makes me feel anxious,0
+176,The thought of tomorrow makes me feel frustrated,0
+177,The thought of tomorrow makes me feel discontented,0
+178,The thought of tomorrow makes me feel hopeless,0
+179,The thought of tomorrow makes me feel irate,0
+180,The thought of tomorrow makes me feel melancholic,0
+181,"My problems are overwhelming, and I need support",0
+182,"My feelings are overwhelming, and I need support",0
+183,"My thoughts are overwhelming, and I need support",0
+184,"My confusion are overwhelming, and I need support",0
+185,"My life are overwhelming, and I need support",0
+186,"My challenges are overwhelming, and I need support",0
+187,"My decisions are overwhelming, and I need support",0
+188,"My dilemmas are overwhelming, and I need support",0
+189,"My responsibilities are overwhelming, and I need support",0
+190,"My opportunities are overwhelming, and I need support",0
+191,It's a challenge to stay positive when I feel unhappy,0
+192,It's a challenge to stay positive when I feel stressed,0
+193,It's a challenge to stay positive when I feel confused,0
+194,It's a challenge to stay positive when I feel worried,0
+195,It's a challenge to stay positive when I feel anxious,0
+196,It's a challenge to stay positive when I feel frustrated,0
+197,It's a challenge to stay positive when I feel discontented,0
+198,It's a challenge to stay positive when I feel hopeless,0
+199,It's a challenge to stay positive when I feel irate,0
+200,It's a challenge to stay positive when I feel melancholic,0
+201,"At times, I feel unhappy without any apparent reason",0
+202,"At times, I feel stressed without any apparent reason",0
+203,"At times, I feel confused without any apparent reason",0
+204,"At times, I feel worried without any apparent reason",0
+205,"At times, I feel anxious without any apparent reason",0
+206,"At times, I feel frustrated without any apparent reason",0
+207,"At times, I feel discontented without any apparent reason",0
+208,"At times, I feel hopeless without any apparent reason",0
+209,"At times, I feel irate without any apparent reason",0
+210,"At times, I feel melancholic without any apparent reason",0
+211,I struggle to find joy in things I once loved,0
+212,I'm searching for ways to deal with my lonely state,0
+213,I'm searching for ways to deal with my overwhelmed state,0
+214,I'm searching for ways to deal with my excited state,0
+215,I'm searching for ways to deal with my nervous state,0
+216,I'm searching for ways to deal with my sad state,0
+217,I'm searching for ways to deal with my joyful state,0
+218,I'm searching for ways to deal with my fearful state,0
+219,I'm searching for ways to deal with my content state,0
+220,I'm searching for ways to deal with my anxious state,0
+221,I'm searching for ways to deal with my hopeful state,0
+222,"Sometimes, it feels like my problems control my life",0
+223,"Sometimes, it feels like my feelings control my life",0
+224,"Sometimes, it feels like my thoughts control my life",0
+225,"Sometimes, it feels like my confusion control my life",0
+226,"Sometimes, it feels like my life control my life",0
+227,"Sometimes, it feels like my challenges control my life",0
+228,"Sometimes, it feels like my decisions control my life",0
+229,"Sometimes, it feels like my dilemmas control my life",0
+230,"Sometimes, it feels like my responsibilities control my life",0
+231,"Sometimes, it feels like my opportunities control my life",0
+232,I wish I could talk to someone about feeling unhappy,0
+233,I wish I could talk to someone about feeling stressed,0
+234,I wish I could talk to someone about feeling confused,0
+235,I wish I could talk to someone about feeling worried,0
+236,I wish I could talk to someone about feeling anxious,0
+237,I wish I could talk to someone about feeling frustrated,0
+238,I wish I could talk to someone about feeling discontented,0
+239,I wish I could talk to someone about feeling hopeless,0
+240,I wish I could talk to someone about feeling irate,0
+241,I wish I could talk to someone about feeling melancholic,0
+242,Every morning brings a sense of lonely that's hard to shake off,0
+243,Every morning brings a sense of overwhelmed that's hard to shake off,0
+244,Every morning brings a sense of excited that's hard to shake off,0
+245,Every morning brings a sense of nervous that's hard to shake off,0
+246,Every morning brings a sense of sad that's hard to shake off,0
+247,Every morning brings a sense of joyful that's hard to shake off,0
+248,Every morning brings a sense of fearful that's hard to shake off,0
+249,Every morning brings a sense of content that's hard to shake off,0
+250,Every morning brings a sense of anxious that's hard to shake off,0
+251,Every morning brings a sense of hopeful that's hard to shake off,0
+252,Finding peace has become my daily goal amidst lonely days,0
+253,Finding peace has become my daily goal amidst overwhelmed days,0
+254,Finding peace has become my daily goal amidst excited days,0
+255,Finding peace has become my daily goal amidst nervous days,0
+256,Finding peace has become my daily goal amidst sad days,0
+257,Finding peace has become my daily goal amidst joyful days,0
+258,Finding peace has become my daily goal amidst fearful days,0
+259,Finding peace has become my daily goal amidst content days,0
+260,Finding peace has become my daily goal amidst anxious days,0
+261,Finding peace has become my daily goal amidst hopeful days,0
+262,I'm really worried about my upcoming math exam,1
+263,I'm really worried about my upcoming history exam,1
+264,I'm really worried about my upcoming science exam,1
+265,I'm really worried about my upcoming English exam,1
+266,I'm really worried about my upcoming art exam,1
+267,I'm really worried about my upcoming economics exam,1
+268,I'm really worried about my upcoming philosophy exam,1
+269,I'm really worried about my upcoming geography exam,1
+270,I'm really worried about my upcoming biology exam,1
+271,I'm really worried about my upcoming physics exam,1
+272,"Lately, my grades in math have been unhappy",1
+273,"Lately, my grades in math have been stressed",1
+274,"Lately, my grades in math have been confused",1
+275,"Lately, my grades in math have been worried",1
+276,"Lately, my grades in math have been anxious",1
+277,"Lately, my grades in math have been frustrated",1
+278,"Lately, my grades in math have been discontented",1
+279,"Lately, my grades in math have been hopeless",1
+280,"Lately, my grades in math have been irate",1
+281,"Lately, my grades in math have been melancholic",1
+282,"Lately, my grades in history have been unhappy",1
+283,"Lately, my grades in history have been stressed",1
+284,"Lately, my grades in history have been confused",1
+285,"Lately, my grades in history have been worried",1
+286,"Lately, my grades in history have been anxious",1
+287,"Lately, my grades in history have been frustrated",1
+288,"Lately, my grades in history have been discontented",1
+289,"Lately, my grades in history have been hopeless",1
+290,"Lately, my grades in history have been irate",1
+291,"Lately, my grades in history have been melancholic",1
+292,"Lately, my grades in science have been unhappy",1
+293,"Lately, my grades in science have been stressed",1
+294,"Lately, my grades in science have been confused",1
+295,"Lately, my grades in science have been worried",1
+296,"Lately, my grades in science have been anxious",1
+297,"Lately, my grades in science have been frustrated",1
+298,"Lately, my grades in science have been discontented",1
+299,"Lately, my grades in science have been hopeless",1
+300,"Lately, my grades in science have been irate",1
+301,"Lately, my grades in science have been melancholic",1
+302,"Lately, my grades in English have been unhappy",1
+303,"Lately, my grades in English have been stressed",1
+304,"Lately, my grades in English have been confused",1
+305,"Lately, my grades in English have been worried",1
+306,"Lately, my grades in English have been anxious",1
+307,"Lately, my grades in English have been frustrated",1
+308,"Lately, my grades in English have been discontented",1
+309,"Lately, my grades in English have been hopeless",1
+310,"Lately, my grades in English have been irate",1
+311,"Lately, my grades in English have been melancholic",1
+312,"Lately, my grades in art have been unhappy",1
+313,"Lately, my grades in art have been stressed",1
+314,"Lately, my grades in art have been confused",1
+315,"Lately, my grades in art have been worried",1
+316,"Lately, my grades in art have been anxious",1
+317,"Lately, my grades in art have been frustrated",1
+318,"Lately, my grades in art have been discontented",1
+319,"Lately, my grades in art have been hopeless",1
+320,"Lately, my grades in art have been irate",1
+321,"Lately, my grades in art have been melancholic",1
+322,"Lately, my grades in economics have been unhappy",1
+323,"Lately, my grades in economics have been stressed",1
+324,"Lately, my grades in economics have been confused",1
+325,"Lately, my grades in economics have been worried",1
+326,"Lately, my grades in economics have been anxious",1
+327,"Lately, my grades in economics have been frustrated",1
+328,"Lately, my grades in economics have been discontented",1
+329,"Lately, my grades in economics have been hopeless",1
+330,"Lately, my grades in economics have been irate",1
+331,"Lately, my grades in economics have been melancholic",1
+332,"Lately, my grades in philosophy have been unhappy",1
+333,"Lately, my grades in philosophy have been stressed",1
+334,"Lately, my grades in philosophy have been confused",1
+335,"Lately, my grades in philosophy have been worried",1
+336,"Lately, my grades in philosophy have been anxious",1
+337,"Lately, my grades in philosophy have been frustrated",1
+338,"Lately, my grades in philosophy have been discontented",1
+339,"Lately, my grades in philosophy have been hopeless",1
+340,"Lately, my grades in philosophy have been irate",1
+341,"Lately, my grades in philosophy have been melancholic",1
+342,"Lately, my grades in geography have been unhappy",1
+343,"Lately, my grades in geography have been stressed",1
+344,"Lately, my grades in geography have been confused",1
+345,"Lately, my grades in geography have been worried",1
+346,"Lately, my grades in geography have been anxious",1
+347,"Lately, my grades in geography have been frustrated",1
+348,"Lately, my grades in geography have been discontented",1
+349,"Lately, my grades in geography have been hopeless",1
+350,"Lately, my grades in geography have been irate",1
+351,"Lately, my grades in geography have been melancholic",1
+352,"Lately, my grades in biology have been unhappy",1
+353,"Lately, my grades in biology have been stressed",1
+354,"Lately, my grades in biology have been confused",1
+355,"Lately, my grades in biology have been worried",1
+356,"Lately, my grades in biology have been anxious",1
+357,"Lately, my grades in biology have been frustrated",1
+358,"Lately, my grades in biology have been discontented",1
+359,"Lately, my grades in biology have been hopeless",1
+360,"Lately, my grades in biology have been irate",1
+361,"Lately, my grades in biology have been melancholic",1
+362,"Lately, my grades in physics have been unhappy",1
+363,"Lately, my grades in physics have been stressed",1
+364,"Lately, my grades in physics have been confused",1
+365,"Lately, my grades in physics have been worried",1
+366,"Lately, my grades in physics have been anxious",1
+367,"Lately, my grades in physics have been frustrated",1
+368,"Lately, my grades in physics have been discontented",1
+369,"Lately, my grades in physics have been hopeless",1
+370,"Lately, my grades in physics have been irate",1
+371,"Lately, my grades in physics have been melancholic",1
+372,Studying math has become increasingly unhappy,1
+373,Studying math has become increasingly stressed,1
+374,Studying math has become increasingly confused,1
+375,Studying math has become increasingly worried,1
+376,Studying math has become increasingly anxious,1
+377,Studying math has become increasingly frustrated,1
+378,Studying math has become increasingly discontented,1
+379,Studying math has become increasingly hopeless,1
+380,Studying math has become increasingly irate,1
+381,Studying math has become increasingly melancholic,1
+382,Studying history has become increasingly unhappy,1
+383,Studying history has become increasingly stressed,1
+384,Studying history has become increasingly confused,1
+385,Studying history has become increasingly worried,1
+386,Studying history has become increasingly anxious,1
+387,Studying history has become increasingly frustrated,1
+388,Studying history has become increasingly discontented,1
+389,Studying history has become increasingly hopeless,1
+390,Studying history has become increasingly irate,1
+391,Studying history has become increasingly melancholic,1
+392,Studying science has become increasingly unhappy,1
+393,Studying science has become increasingly stressed,1
+394,Studying science has become increasingly confused,1
+395,Studying science has become increasingly worried,1
+396,Studying science has become increasingly anxious,1
+397,Studying science has become increasingly frustrated,1
+398,Studying science has become increasingly discontented,1
+399,Studying science has become increasingly hopeless,1
+400,Studying science has become increasingly irate,1
+401,Studying science has become increasingly melancholic,1
+402,Studying English has become increasingly unhappy,1
+403,Studying English has become increasingly stressed,1
+404,Studying English has become increasingly confused,1
+405,Studying English has become increasingly worried,1
+406,Studying English has become increasingly anxious,1
+407,Studying English has become increasingly frustrated,1
+408,Studying English has become increasingly discontented,1
+409,Studying English has become increasingly hopeless,1
+410,Studying English has become increasingly irate,1
+411,Studying English has become increasingly melancholic,1
+412,Studying art has become increasingly unhappy,1
+413,Studying art has become increasingly stressed,1
+414,Studying art has become increasingly confused,1
+415,Studying art has become increasingly worried,1
+416,Studying art has become increasingly anxious,1
+417,Studying art has become increasingly frustrated,1
+418,Studying art has become increasingly discontented,1
+419,Studying art has become increasingly hopeless,1
+420,Studying art has become increasingly irate,1
+421,Studying art has become increasingly melancholic,1
+422,Studying economics has become increasingly unhappy,1
+423,Studying economics has become increasingly stressed,1
+424,Studying economics has become increasingly confused,1
+425,Studying economics has become increasingly worried,1
+426,Studying economics has become increasingly anxious,1
+427,Studying economics has become increasingly frustrated,1
+428,Studying economics has become increasingly discontented,1
+429,Studying economics has become increasingly hopeless,1
+430,Studying economics has become increasingly irate,1
+431,Studying economics has become increasingly melancholic,1
+432,Studying philosophy has become increasingly unhappy,1
+433,Studying philosophy has become increasingly stressed,1
+434,Studying philosophy has become increasingly confused,1
+435,Studying philosophy has become increasingly worried,1
+436,Studying philosophy has become increasingly anxious,1
+437,Studying philosophy has become increasingly frustrated,1
+438,Studying philosophy has become increasingly discontented,1
+439,Studying philosophy has become increasingly hopeless,1
+440,Studying philosophy has become increasingly irate,1
+441,Studying philosophy has become increasingly melancholic,1
+442,Studying geography has become increasingly unhappy,1
+443,Studying geography has become increasingly stressed,1
+444,Studying geography has become increasingly confused,1
+445,Studying geography has become increasingly worried,1
+446,Studying geography has become increasingly anxious,1
+447,Studying geography has become increasingly frustrated,1
+448,Studying geography has become increasingly discontented,1
+449,Studying geography has become increasingly hopeless,1
+450,Studying geography has become increasingly irate,1
+451,Studying geography has become increasingly melancholic,1
+452,Studying biology has become increasingly unhappy,1
+453,Studying biology has become increasingly stressed,1
+454,Studying biology has become increasingly confused,1
+455,Studying biology has become increasingly worried,1
+456,Studying biology has become increasingly anxious,1
+457,Studying biology has become increasingly frustrated,1
+458,Studying biology has become increasingly discontented,1
+459,Studying biology has become increasingly hopeless,1
+460,Studying biology has become increasingly irate,1
+461,Studying biology has become increasingly melancholic,1
+462,Studying physics has become increasingly unhappy,1
+463,Studying physics has become increasingly stressed,1
+464,Studying physics has become increasingly confused,1
+465,Studying physics has become increasingly worried,1
+466,Studying physics has become increasingly anxious,1
+467,Studying physics has become increasingly frustrated,1
+468,Studying physics has become increasingly discontented,1
+469,Studying physics has become increasingly hopeless,1
+470,Studying physics has become increasingly irate,1
+471,Studying physics has become increasingly melancholic,1
+472,I'm concerned my math skills aren't improving,1
+473,I'm concerned my history skills aren't improving,1
+474,I'm concerned my science skills aren't improving,1
+475,I'm concerned my English skills aren't improving,1
+476,I'm concerned my art skills aren't improving,1
+477,I'm concerned my economics skills aren't improving,1
+478,I'm concerned my philosophy skills aren't improving,1
+479,I'm concerned my geography skills aren't improving,1
+480,I'm concerned my biology skills aren't improving,1
+481,I'm concerned my physics skills aren't improving,1
+482,The thought of failing math makes me feel unhappy,1
+483,The thought of failing math makes me feel stressed,1
+484,The thought of failing math makes me feel confused,1
+485,The thought of failing math makes me feel worried,1
+486,The thought of failing math makes me feel anxious,1
+487,The thought of failing math makes me feel frustrated,1
+488,The thought of failing math makes me feel discontented,1
+489,The thought of failing math makes me feel hopeless,1
+490,The thought of failing math makes me feel irate,1
+491,The thought of failing math makes me feel melancholic,1
+492,The thought of failing history makes me feel unhappy,1
+493,The thought of failing history makes me feel stressed,1
+494,The thought of failing history makes me feel confused,1
+495,The thought of failing history makes me feel worried,1
+496,The thought of failing history makes me feel anxious,1
+497,The thought of failing history makes me feel frustrated,1
+498,The thought of failing history makes me feel discontented,1
+499,The thought of failing history makes me feel hopeless,1
+500,The thought of failing history makes me feel irate,1
+501,The thought of failing history makes me feel melancholic,1
+502,The thought of failing science makes me feel unhappy,1
+503,The thought of failing science makes me feel stressed,1
+504,The thought of failing science makes me feel confused,1
+505,The thought of failing science makes me feel worried,1
+506,The thought of failing science makes me feel anxious,1
+507,The thought of failing science makes me feel frustrated,1
+508,The thought of failing science makes me feel discontented,1
+509,The thought of failing science makes me feel hopeless,1
+510,The thought of failing science makes me feel irate,1
+511,The thought of failing science makes me feel melancholic,1
+512,The thought of failing English makes me feel unhappy,1
+513,The thought of failing English makes me feel stressed,1
+514,The thought of failing English makes me feel confused,1
+515,The thought of failing English makes me feel worried,1
+516,The thought of failing English makes me feel anxious,1
+517,The thought of failing English makes me feel frustrated,1
+518,The thought of failing English makes me feel discontented,1
+519,The thought of failing English makes me feel hopeless,1
+520,The thought of failing English makes me feel irate,1
+521,The thought of failing English makes me feel melancholic,1
+522,The thought of failing art makes me feel unhappy,1
+523,The thought of failing art makes me feel stressed,1
+524,The thought of failing art makes me feel confused,1
+525,The thought of failing art makes me feel worried,1
+526,The thought of failing art makes me feel anxious,1
+527,The thought of failing art makes me feel frustrated,1
+528,The thought of failing art makes me feel discontented,1
+529,The thought of failing art makes me feel hopeless,1
+530,The thought of failing art makes me feel irate,1
+531,The thought of failing art makes me feel melancholic,1
+532,The thought of failing economics makes me feel unhappy,1
+533,The thought of failing economics makes me feel stressed,1
+534,The thought of failing economics makes me feel confused,1
+535,The thought of failing economics makes me feel worried,1
+536,The thought of failing economics makes me feel anxious,1
+537,The thought of failing economics makes me feel frustrated,1
+538,The thought of failing economics makes me feel discontented,1
+539,The thought of failing economics makes me feel hopeless,1
+540,The thought of failing economics makes me feel irate,1
+541,The thought of failing economics makes me feel melancholic,1
+542,The thought of failing philosophy makes me feel unhappy,1
+543,The thought of failing philosophy makes me feel stressed,1
+544,The thought of failing philosophy makes me feel confused,1
+545,The thought of failing philosophy makes me feel worried,1
+546,The thought of failing philosophy makes me feel anxious,1
+547,The thought of failing philosophy makes me feel frustrated,1
+548,The thought of failing philosophy makes me feel discontented,1
+549,The thought of failing philosophy makes me feel hopeless,1
+550,The thought of failing philosophy makes me feel irate,1
+551,The thought of failing philosophy makes me feel melancholic,1
+552,The thought of failing geography makes me feel unhappy,1
+553,The thought of failing geography makes me feel stressed,1
+554,The thought of failing geography makes me feel confused,1
+555,The thought of failing geography makes me feel worried,1
+556,The thought of failing geography makes me feel anxious,1
+557,The thought of failing geography makes me feel frustrated,1
+558,The thought of failing geography makes me feel discontented,1
+559,The thought of failing geography makes me feel hopeless,1
+560,The thought of failing geography makes me feel irate,1
+561,The thought of failing geography makes me feel melancholic,1
+562,The thought of failing biology makes me feel unhappy,1
+563,The thought of failing biology makes me feel stressed,1
+564,The thought of failing biology makes me feel confused,1
+565,The thought of failing biology makes me feel worried,1
+566,The thought of failing biology makes me feel anxious,1
+567,The thought of failing biology makes me feel frustrated,1
+568,The thought of failing biology makes me feel discontented,1
+569,The thought of failing biology makes me feel hopeless,1
+570,The thought of failing biology makes me feel irate,1
+571,The thought of failing biology makes me feel melancholic,1
+572,The thought of failing physics makes me feel unhappy,1
+573,The thought of failing physics makes me feel stressed,1
+574,The thought of failing physics makes me feel confused,1
+575,The thought of failing physics makes me feel worried,1
+576,The thought of failing physics makes me feel anxious,1
+577,The thought of failing physics makes me feel frustrated,1
+578,The thought of failing physics makes me feel discontented,1
+579,The thought of failing physics makes me feel hopeless,1
+580,The thought of failing physics makes me feel irate,1
+581,The thought of failing physics makes me feel melancholic,1
+582,My math professor suggested I need extra help,1
+583,My history professor suggested I need extra help,1
+584,My science professor suggested I need extra help,1
+585,My English professor suggested I need extra help,1
+586,My art professor suggested I need extra help,1
+587,My economics professor suggested I need extra help,1
+588,My philosophy professor suggested I need extra help,1
+589,My geography professor suggested I need extra help,1
+590,My biology professor suggested I need extra help,1
+591,My physics professor suggested I need extra help,1
+592,I feel like I'm falling behind in math,1
+593,I feel like I'm falling behind in history,1
+594,I feel like I'm falling behind in science,1
+595,I feel like I'm falling behind in English,1
+596,I feel like I'm falling behind in art,1
+597,I feel like I'm falling behind in economics,1
+598,I feel like I'm falling behind in philosophy,1
+599,I feel like I'm falling behind in geography,1
+600,I feel like I'm falling behind in biology,1
+601,I feel like I'm falling behind in physics,1
+602,"No matter how much I study, math seems impossible",1
+603,"No matter how much I study, history seems impossible",1
+604,"No matter how much I study, science seems impossible",1
+605,"No matter how much I study, English seems impossible",1
+606,"No matter how much I study, art seems impossible",1
+607,"No matter how much I study, economics seems impossible",1
+608,"No matter how much I study, philosophy seems impossible",1
+609,"No matter how much I study, geography seems impossible",1
+610,"No matter how much I study, biology seems impossible",1
+611,"No matter how much I study, physics seems impossible",1
+612,I'm scared I won't graduate because of my math grades,1
+613,I'm scared I won't graduate because of my history grades,1
+614,I'm scared I won't graduate because of my science grades,1
+615,I'm scared I won't graduate because of my English grades,1
+616,I'm scared I won't graduate because of my art grades,1
+617,I'm scared I won't graduate because of my economics grades,1
+618,I'm scared I won't graduate because of my philosophy grades,1
+619,I'm scared I won't graduate because of my geography grades,1
+620,I'm scared I won't graduate because of my biology grades,1
+621,I'm scared I won't graduate because of my physics grades,1
+622,Every math class brings a sense of dread,1
+623,Every history class brings a sense of dread,1
+624,Every science class brings a sense of dread,1
+625,Every English class brings a sense of dread,1
+626,Every art class brings a sense of dread,1
+627,Every economics class brings a sense of dread,1
+628,Every philosophy class brings a sense of dread,1
+629,Every geography class brings a sense of dread,1
+630,Every biology class brings a sense of dread,1
+631,Every physics class brings a sense of dread,1
+632,I'm not grasping the concepts in math at all,1
+633,I'm not grasping the concepts in history at all,1
+634,I'm not grasping the concepts in science at all,1
+635,I'm not grasping the concepts in English at all,1
+636,I'm not grasping the concepts in art at all,1
+637,I'm not grasping the concepts in economics at all,1
+638,I'm not grasping the concepts in philosophy at all,1
+639,I'm not grasping the concepts in geography at all,1
+640,I'm not grasping the concepts in biology at all,1
+641,I'm not grasping the concepts in physics at all,1
+642,My performance in math is not what I hoped it would be,1
+643,My performance in history is not what I hoped it would be,1
+644,My performance in science is not what I hoped it would be,1
+645,My performance in English is not what I hoped it would be,1
+646,My performance in art is not what I hoped it would be,1
+647,My performance in economics is not what I hoped it would be,1
+648,My performance in philosophy is not what I hoped it would be,1
+649,My performance in geography is not what I hoped it would be,1
+650,My performance in biology is not what I hoped it would be,1
+651,My performance in physics is not what I hoped it would be,1
+652,Fearing the next math test keeps me up at night,1
+653,Fearing the next history test keeps me up at night,1
+654,Fearing the next science test keeps me up at night,1
+655,Fearing the next English test keeps me up at night,1
+656,Fearing the next art test keeps me up at night,1
+657,Fearing the next economics test keeps me up at night,1
+658,Fearing the next philosophy test keeps me up at night,1
+659,Fearing the next geography test keeps me up at night,1
+660,Fearing the next biology test keeps me up at night,1
+661,Fearing the next physics test keeps me up at night,1
+662,I get anxious just thinking about my math homework,1
+663,I get anxious just thinking about my history homework,1
+664,I get anxious just thinking about my science homework,1
+665,I get anxious just thinking about my English homework,1
+666,I get anxious just thinking about my art homework,1
+667,I get anxious just thinking about my economics homework,1
+668,I get anxious just thinking about my philosophy homework,1
+669,I get anxious just thinking about my geography homework,1
+670,I get anxious just thinking about my biology homework,1
+671,I get anxious just thinking about my physics homework,1
+672,Group projects in math make me feel unhappy,1
+673,Group projects in math make me feel stressed,1
+674,Group projects in math make me feel confused,1
+675,Group projects in math make me feel worried,1
+676,Group projects in math make me feel anxious,1
+677,Group projects in math make me feel frustrated,1
+678,Group projects in math make me feel discontented,1
+679,Group projects in math make me feel hopeless,1
+680,Group projects in math make me feel irate,1
+681,Group projects in math make me feel melancholic,1
+682,Group projects in history make me feel unhappy,1
+683,Group projects in history make me feel stressed,1
+684,Group projects in history make me feel confused,1
+685,Group projects in history make me feel worried,1
+686,Group projects in history make me feel anxious,1
+687,Group projects in history make me feel frustrated,1
+688,Group projects in history make me feel discontented,1
+689,Group projects in history make me feel hopeless,1
+690,Group projects in history make me feel irate,1
+691,Group projects in history make me feel melancholic,1
+692,Group projects in science make me feel unhappy,1
+693,Group projects in science make me feel stressed,1
+694,Group projects in science make me feel confused,1
+695,Group projects in science make me feel worried,1
+696,Group projects in science make me feel anxious,1
+697,Group projects in science make me feel frustrated,1
+698,Group projects in science make me feel discontented,1
+699,Group projects in science make me feel hopeless,1
+700,Group projects in science make me feel irate,1
+701,Group projects in science make me feel melancholic,1
+702,Group projects in English make me feel unhappy,1
+703,Group projects in English make me feel stressed,1
+704,Group projects in English make me feel confused,1
+705,Group projects in English make me feel worried,1
+706,Group projects in English make me feel anxious,1
+707,Group projects in English make me feel frustrated,1
+708,Group projects in English make me feel discontented,1
+709,Group projects in English make me feel hopeless,1
+710,Group projects in English make me feel irate,1
+711,Group projects in English make me feel melancholic,1
+712,Group projects in art make me feel unhappy,1
+713,Group projects in art make me feel stressed,1
+714,Group projects in art make me feel confused,1
+715,Group projects in art make me feel worried,1
+716,Group projects in art make me feel anxious,1
+717,Group projects in art make me feel frustrated,1
+718,Group projects in art make me feel discontented,1
+719,Group projects in art make me feel hopeless,1
+720,Group projects in art make me feel irate,1
+721,Group projects in art make me feel melancholic,1
+722,Group projects in economics make me feel unhappy,1
+723,Group projects in economics make me feel stressed,1
+724,Group projects in economics make me feel confused,1
+725,Group projects in economics make me feel worried,1
+726,Group projects in economics make me feel anxious,1
+727,Group projects in economics make me feel frustrated,1
+728,Group projects in economics make me feel discontented,1
+729,Group projects in economics make me feel hopeless,1
+730,Group projects in economics make me feel irate,1
+731,Group projects in economics make me feel melancholic,1
+732,Group projects in philosophy make me feel unhappy,1
+733,Group projects in philosophy make me feel stressed,1
+734,Group projects in philosophy make me feel confused,1
+735,Group projects in philosophy make me feel worried,1
+736,Group projects in philosophy make me feel anxious,1
+737,Group projects in philosophy make me feel frustrated,1
+738,Group projects in philosophy make me feel discontented,1
+739,Group projects in philosophy make me feel hopeless,1
+740,Group projects in philosophy make me feel irate,1
+741,Group projects in philosophy make me feel melancholic,1
+742,Group projects in geography make me feel unhappy,1
+743,Group projects in geography make me feel stressed,1
+744,Group projects in geography make me feel confused,1
+745,Group projects in geography make me feel worried,1
+746,Group projects in geography make me feel anxious,1
+747,Group projects in geography make me feel frustrated,1
+748,Group projects in geography make me feel discontented,1
+749,Group projects in geography make me feel hopeless,1
+750,Group projects in geography make me feel irate,1
+751,Group projects in geography make me feel melancholic,1
+752,Group projects in biology make me feel unhappy,1
+753,Group projects in biology make me feel stressed,1
+754,Group projects in biology make me feel confused,1
+755,Group projects in biology make me feel worried,1
+756,Group projects in biology make me feel anxious,1
+757,Group projects in biology make me feel frustrated,1
+758,Group projects in biology make me feel discontented,1
+759,Group projects in biology make me feel hopeless,1
+760,Group projects in biology make me feel irate,1
+761,Group projects in biology make me feel melancholic,1
+762,Group projects in physics make me feel unhappy,1
+763,Group projects in physics make me feel stressed,1
+764,Group projects in physics make me feel confused,1
+765,Group projects in physics make me feel worried,1
+766,Group projects in physics make me feel anxious,1
+767,Group projects in physics make me feel frustrated,1
+768,Group projects in physics make me feel discontented,1
+769,Group projects in physics make me feel hopeless,1
+770,Group projects in physics make me feel irate,1
+771,Group projects in physics make me feel melancholic,1
+772,I'm struggling to keep up with the math coursework,1
+773,I'm struggling to keep up with the history coursework,1
+774,I'm struggling to keep up with the science coursework,1
+775,I'm struggling to keep up with the English coursework,1
+776,I'm struggling to keep up with the art coursework,1
+777,I'm struggling to keep up with the economics coursework,1
+778,I'm struggling to keep up with the philosophy coursework,1
+779,I'm struggling to keep up with the geography coursework,1
+780,I'm struggling to keep up with the biology coursework,1
+781,I'm struggling to keep up with the physics coursework,1
+782,The workload for math is more than I can handle,1
+783,The workload for history is more than I can handle,1
+784,The workload for science is more than I can handle,1
+785,The workload for English is more than I can handle,1
+786,The workload for art is more than I can handle,1
+787,The workload for economics is more than I can handle,1
+788,The workload for philosophy is more than I can handle,1
+789,The workload for geography is more than I can handle,1
+790,The workload for biology is more than I can handle,1
+791,The workload for physics is more than I can handle,1
+792,Exams in math always feel like an impossible challenge,1
+793,Exams in history always feel like an impossible challenge,1
+794,Exams in science always feel like an impossible challenge,1
+795,Exams in English always feel like an impossible challenge,1
+796,Exams in art always feel like an impossible challenge,1
+797,Exams in economics always feel like an impossible challenge,1
+798,Exams in philosophy always feel like an impossible challenge,1
+799,Exams in geography always feel like an impossible challenge,1
+800,Exams in biology always feel like an impossible challenge,1
+801,Exams in physics always feel like an impossible challenge,1
+802,Discussions in math class often leave me feeling unhappy,1
+803,Discussions in math class often leave me feeling stressed,1
+804,Discussions in math class often leave me feeling confused,1
+805,Discussions in math class often leave me feeling worried,1
+806,Discussions in math class often leave me feeling anxious,1
+807,Discussions in math class often leave me feeling frustrated,1
+808,Discussions in math class often leave me feeling discontented,1
+809,Discussions in math class often leave me feeling hopeless,1
+810,Discussions in math class often leave me feeling irate,1
+811,Discussions in math class often leave me feeling melancholic,1
+812,Discussions in history class often leave me feeling unhappy,1
+813,Discussions in history class often leave me feeling stressed,1
+814,Discussions in history class often leave me feeling confused,1
+815,Discussions in history class often leave me feeling worried,1
+816,Discussions in history class often leave me feeling anxious,1
+817,Discussions in history class often leave me feeling frustrated,1
+818,Discussions in history class often leave me feeling discontented,1
+819,Discussions in history class often leave me feeling hopeless,1
+820,Discussions in history class often leave me feeling irate,1
+821,Discussions in history class often leave me feeling melancholic,1
+822,Discussions in science class often leave me feeling unhappy,1
+823,Discussions in science class often leave me feeling stressed,1
+824,Discussions in science class often leave me feeling confused,1
+825,Discussions in science class often leave me feeling worried,1
+826,Discussions in science class often leave me feeling anxious,1
+827,Discussions in science class often leave me feeling frustrated,1
+828,Discussions in science class often leave me feeling discontented,1
+829,Discussions in science class often leave me feeling hopeless,1
+830,Discussions in science class often leave me feeling irate,1
+831,Discussions in science class often leave me feeling melancholic,1
+832,Discussions in English class often leave me feeling unhappy,1
+833,Discussions in English class often leave me feeling stressed,1
+834,Discussions in English class often leave me feeling confused,1
+835,Discussions in English class often leave me feeling worried,1
+836,Discussions in English class often leave me feeling anxious,1
+837,Discussions in English class often leave me feeling frustrated,1
+838,Discussions in English class often leave me feeling discontented,1
+839,Discussions in English class often leave me feeling hopeless,1
+840,Discussions in English class often leave me feeling irate,1
+841,Discussions in English class often leave me feeling melancholic,1
+842,Discussions in art class often leave me feeling unhappy,1
+843,Discussions in art class often leave me feeling stressed,1
+844,Discussions in art class often leave me feeling confused,1
+845,Discussions in art class often leave me feeling worried,1
+846,Discussions in art class often leave me feeling anxious,1
+847,Discussions in art class often leave me feeling frustrated,1
+848,Discussions in art class often leave me feeling discontented,1
+849,Discussions in art class often leave me feeling hopeless,1
+850,Discussions in art class often leave me feeling irate,1
+851,Discussions in art class often leave me feeling melancholic,1
+852,Discussions in economics class often leave me feeling unhappy,1
+853,Discussions in economics class often leave me feeling stressed,1
+854,Discussions in economics class often leave me feeling confused,1
+855,Discussions in economics class often leave me feeling worried,1
+856,Discussions in economics class often leave me feeling anxious,1
+857,Discussions in economics class often leave me feeling frustrated,1
+858,Discussions in economics class often leave me feeling discontented,1
+859,Discussions in economics class often leave me feeling hopeless,1
+860,Discussions in economics class often leave me feeling irate,1
+861,Discussions in economics class often leave me feeling melancholic,1
+862,Discussions in philosophy class often leave me feeling unhappy,1
+863,Discussions in philosophy class often leave me feeling stressed,1
+864,Discussions in philosophy class often leave me feeling confused,1
+865,Discussions in philosophy class often leave me feeling worried,1
+866,Discussions in philosophy class often leave me feeling anxious,1
+867,Discussions in philosophy class often leave me feeling frustrated,1
+868,Discussions in philosophy class often leave me feeling discontented,1
+869,Discussions in philosophy class often leave me feeling hopeless,1
+870,Discussions in philosophy class often leave me feeling irate,1
+871,Discussions in philosophy class often leave me feeling melancholic,1
+872,Discussions in geography class often leave me feeling unhappy,1
+873,Discussions in geography class often leave me feeling stressed,1
+874,Discussions in geography class often leave me feeling confused,1
+875,Discussions in geography class often leave me feeling worried,1
+876,Discussions in geography class often leave me feeling anxious,1
+877,Discussions in geography class often leave me feeling frustrated,1
+878,Discussions in geography class often leave me feeling discontented,1
+879,Discussions in geography class often leave me feeling hopeless,1
+880,Discussions in geography class often leave me feeling irate,1
+881,Discussions in geography class often leave me feeling melancholic,1
+882,Discussions in biology class often leave me feeling unhappy,1
+883,Discussions in biology class often leave me feeling stressed,1
+884,Discussions in biology class often leave me feeling confused,1
+885,Discussions in biology class often leave me feeling worried,1
+886,Discussions in biology class often leave me feeling anxious,1
+887,Discussions in biology class often leave me feeling frustrated,1
+888,Discussions in biology class often leave me feeling discontented,1
+889,Discussions in biology class often leave me feeling hopeless,1
+890,Discussions in biology class often leave me feeling irate,1
+891,Discussions in biology class often leave me feeling melancholic,1
+892,Discussions in physics class often leave me feeling unhappy,1
+893,Discussions in physics class often leave me feeling stressed,1
+894,Discussions in physics class often leave me feeling confused,1
+895,Discussions in physics class often leave me feeling worried,1
+896,Discussions in physics class often leave me feeling anxious,1
+897,Discussions in physics class often leave me feeling frustrated,1
+898,Discussions in physics class often leave me feeling discontented,1
+899,Discussions in physics class often leave me feeling hopeless,1
+900,Discussions in physics class often leave me feeling irate,1
+901,Discussions in physics class often leave me feeling melancholic,1
+902,I feel unhappy about the way I look,2
+903,I feel stressed about the way I look,2
+904,I feel confused about the way I look,2
+905,I feel worried about the way I look,2
+906,I feel anxious about the way I look,2
+907,I feel frustrated about the way I look,2
+908,I feel discontented about the way I look,2
+909,I feel hopeless about the way I look,2
+910,I feel irate about the way I look,2
+911,I feel melancholic about the way I look,2
+912,What can I do to look more unhappy?,2
+913,What can I do to look more stressed?,2
+914,What can I do to look more confused?,2
+915,What can I do to look more worried?,2
+916,What can I do to look more anxious?,2
+917,What can I do to look more frustrated?,2
+918,What can I do to look more discontented?,2
+919,What can I do to look more hopeless?,2
+920,What can I do to look more irate?,2
+921,What can I do to look more melancholic?,2
+922,Feeling unhappy when I see my reflection is tough,2
+923,Feeling stressed when I see my reflection is tough,2
+924,Feeling confused when I see my reflection is tough,2
+925,Feeling worried when I see my reflection is tough,2
+926,Feeling anxious when I see my reflection is tough,2
+927,Feeling frustrated when I see my reflection is tough,2
+928,Feeling discontented when I see my reflection is tough,2
+929,Feeling hopeless when I see my reflection is tough,2
+930,Feeling irate when I see my reflection is tough,2
+931,Feeling melancholic when I see my reflection is tough,2
+932,Changing my style has made me feel more unhappy,2
+933,Changing my style has made me feel more stressed,2
+934,Changing my style has made me feel more confused,2
+935,Changing my style has made me feel more worried,2
+936,Changing my style has made me feel more anxious,2
+937,Changing my style has made me feel more frustrated,2
+938,Changing my style has made me feel more discontented,2
+939,Changing my style has made me feel more hopeless,2
+940,Changing my style has made me feel more irate,2
+941,Changing my style has made me feel more melancholic,2
+942,I am considering changing my look to feel unhappy,2
+943,I am considering changing my look to feel stressed,2
+944,I am considering changing my look to feel confused,2
+945,I am considering changing my look to feel worried,2
+946,I am considering changing my look to feel anxious,2
+947,I am considering changing my look to feel frustrated,2
+948,I am considering changing my look to feel discontented,2
+949,I am considering changing my look to feel hopeless,2
+950,I am considering changing my look to feel irate,2
+951,I am considering changing my look to feel melancholic,2
+952,Dealing with comments about my appearance makes me lonely,2
+953,Dealing with comments about my appearance makes me overwhelmed,2
+954,Dealing with comments about my appearance makes me excited,2
+955,Dealing with comments about my appearance makes me nervous,2
+956,Dealing with comments about my appearance makes me sad,2
+957,Dealing with comments about my appearance makes me joyful,2
+958,Dealing with comments about my appearance makes me fearful,2
+959,Dealing with comments about my appearance makes me content,2
+960,Dealing with comments about my appearance makes me anxious,2
+961,Dealing with comments about my appearance makes me hopeful,2
+962,Sometimes I avoid mirrors because I feel unhappy,2
+963,Sometimes I avoid mirrors because I feel stressed,2
+964,Sometimes I avoid mirrors because I feel confused,2
+965,Sometimes I avoid mirrors because I feel worried,2
+966,Sometimes I avoid mirrors because I feel anxious,2
+967,Sometimes I avoid mirrors because I feel frustrated,2
+968,Sometimes I avoid mirrors because I feel discontented,2
+969,Sometimes I avoid mirrors because I feel hopeless,2
+970,Sometimes I avoid mirrors because I feel irate,2
+971,Sometimes I avoid mirrors because I feel melancholic,2
+972,I wish I felt more lonely about my body image,2
+973,I wish I felt more overwhelmed about my body image,2
+974,I wish I felt more excited about my body image,2
+975,I wish I felt more nervous about my body image,2
+976,I wish I felt more sad about my body image,2
+977,I wish I felt more joyful about my body image,2
+978,I wish I felt more fearful about my body image,2
+979,I wish I felt more content about my body image,2
+980,I wish I felt more anxious about my body image,2
+981,I wish I felt more hopeful about my body image,2
+982,People's remarks about how I look make me feel unhappy,2
+983,People's remarks about how I look make me feel stressed,2
+984,People's remarks about how I look make me feel confused,2
+985,People's remarks about how I look make me feel worried,2
+986,People's remarks about how I look make me feel anxious,2
+987,People's remarks about how I look make me feel frustrated,2
+988,People's remarks about how I look make me feel discontented,2
+989,People's remarks about how I look make me feel hopeless,2
+990,People's remarks about how I look make me feel irate,2
+991,People's remarks about how I look make me feel melancholic,2
+992,Trying new looks has not helped me feel less unhappy,2
+993,Trying new looks has not helped me feel less stressed,2
+994,Trying new looks has not helped me feel less confused,2
+995,Trying new looks has not helped me feel less worried,2
+996,Trying new looks has not helped me feel less anxious,2
+997,Trying new looks has not helped me feel less frustrated,2
+998,Trying new looks has not helped me feel less discontented,2
+999,Trying new looks has not helped me feel less hopeless,2
+1000,Trying new looks has not helped me feel less irate,2
+1001,Trying new looks has not helped me feel less melancholic,2
+1002,I struggle with self-acceptance because I feel unhappy,2
+1003,I struggle with self-acceptance because I feel stressed,2
+1004,I struggle with self-acceptance because I feel confused,2
+1005,I struggle with self-acceptance because I feel worried,2
+1006,I struggle with self-acceptance because I feel anxious,2
+1007,I struggle with self-acceptance because I feel frustrated,2
+1008,I struggle with self-acceptance because I feel discontented,2
+1009,I struggle with self-acceptance because I feel hopeless,2
+1010,I struggle with self-acceptance because I feel irate,2
+1011,I struggle with self-acceptance because I feel melancholic,2
+1012,Feeling unhappy about my body is a daily issue,2
+1013,Feeling stressed about my body is a daily issue,2
+1014,Feeling confused about my body is a daily issue,2
+1015,Feeling worried about my body is a daily issue,2
+1016,Feeling anxious about my body is a daily issue,2
+1017,Feeling frustrated about my body is a daily issue,2
+1018,Feeling discontented about my body is a daily issue,2
+1019,Feeling hopeless about my body is a daily issue,2
+1020,Feeling irate about my body is a daily issue,2
+1021,Feeling melancholic about my body is a daily issue,2
+1022,My appearance doesn't reflect how I feel inside,2
+1023,I'm experimenting with my style to boost my lonely,2
+1024,I'm experimenting with my style to boost my overwhelmed,2
+1025,I'm experimenting with my style to boost my excited,2
+1026,I'm experimenting with my style to boost my nervous,2
+1027,I'm experimenting with my style to boost my sad,2
+1028,I'm experimenting with my style to boost my joyful,2
+1029,I'm experimenting with my style to boost my fearful,2
+1030,I'm experimenting with my style to boost my content,2
+1031,I'm experimenting with my style to boost my anxious,2
+1032,I'm experimenting with my style to boost my hopeful,2
+1033,Others' opinions on my looks are often too unhappy,2
+1034,Others' opinions on my looks are often too stressed,2
+1035,Others' opinions on my looks are often too confused,2
+1036,Others' opinions on my looks are often too worried,2
+1037,Others' opinions on my looks are often too anxious,2
+1038,Others' opinions on my looks are often too frustrated,2
+1039,Others' opinions on my looks are often too discontented,2
+1040,Others' opinions on my looks are often too hopeless,2
+1041,Others' opinions on my looks are often too irate,2
+1042,Others' opinions on my looks are often too melancholic,2
+1043,I've started to feel unhappy about going out in public,2
+1044,I've started to feel stressed about going out in public,2
+1045,I've started to feel confused about going out in public,2
+1046,I've started to feel worried about going out in public,2
+1047,I've started to feel anxious about going out in public,2
+1048,I've started to feel frustrated about going out in public,2
+1049,I've started to feel discontented about going out in public,2
+1050,I've started to feel hopeless about going out in public,2
+1051,I've started to feel irate about going out in public,2
+1052,I've started to feel melancholic about going out in public,2
+1053,Personal style has become a source of stress for me,2
+1054,Society's beauty standards make me feel unhappy,2
+1055,Society's beauty standards make me feel stressed,2
+1056,Society's beauty standards make me feel confused,2
+1057,Society's beauty standards make me feel worried,2
+1058,Society's beauty standards make me feel anxious,2
+1059,Society's beauty standards make me feel frustrated,2
+1060,Society's beauty standards make me feel discontented,2
+1061,Society's beauty standards make me feel hopeless,2
+1062,Society's beauty standards make me feel irate,2
+1063,Society's beauty standards make me feel melancholic,2
+1064,I'm learning to embrace my looks and feel lonely,2
+1065,I'm learning to embrace my looks and feel overwhelmed,2
+1066,I'm learning to embrace my looks and feel excited,2
+1067,I'm learning to embrace my looks and feel nervous,2
+1068,I'm learning to embrace my looks and feel sad,2
+1069,I'm learning to embrace my looks and feel joyful,2
+1070,I'm learning to embrace my looks and feel fearful,2
+1071,I'm learning to embrace my looks and feel content,2
+1072,I'm learning to embrace my looks and feel anxious,2
+1073,I'm learning to embrace my looks and feel hopeful,2
+1074,I had a fight with my friend,3
+1075,I had a fight with my boyfriend,3
+1076,I had a fight with my girlfriend,3
+1077,I had a fight with my classmate,3
+1078,I had a fight with my best friend,3
+1079,I had a fight with my colleague,3
+1080,I had a fight with my partner,3
+1081,I had a fight with my sibling,3
+1082,I had a fight with my mentor,3
+1083,I had a fight with my acquaintance,3
+1084,I feel lonely when I'm around my friends,3
+1085,I feel overwhelmed when I'm around my friends,3
+1086,I feel excited when I'm around my friends,3
+1087,I feel nervous when I'm around my friends,3
+1088,I feel sad when I'm around my friends,3
+1089,I feel joyful when I'm around my friends,3
+1090,I feel fearful when I'm around my friends,3
+1091,I feel content when I'm around my friends,3
+1092,I feel anxious when I'm around my friends,3
+1093,I feel hopeful when I'm around my friends,3
+1094,It's not easy to maintain a good relationship with my friend,3
+1095,It's not easy to maintain a good relationship with my boyfriend,3
+1096,It's not easy to maintain a good relationship with my girlfriend,3
+1097,It's not easy to maintain a good relationship with my classmate,3
+1098,It's not easy to maintain a good relationship with my best friend,3
+1099,It's not easy to maintain a good relationship with my colleague,3
+1100,It's not easy to maintain a good relationship with my partner,3
+1101,It's not easy to maintain a good relationship with my sibling,3
+1102,It's not easy to maintain a good relationship with my mentor,3
+1103,It's not easy to maintain a good relationship with my acquaintance,3
+1104,Having friend issues has made me very unhappy,3
+1105,Having friend issues has made me very stressed,3
+1106,Having friend issues has made me very confused,3
+1107,Having friend issues has made me very worried,3
+1108,Having friend issues has made me very anxious,3
+1109,Having friend issues has made me very frustrated,3
+1110,Having friend issues has made me very discontented,3
+1111,Having friend issues has made me very hopeless,3
+1112,Having friend issues has made me very irate,3
+1113,Having friend issues has made me very melancholic,3
+1114,Having boyfriend issues has made me very unhappy,3
+1115,Having boyfriend issues has made me very stressed,3
+1116,Having boyfriend issues has made me very confused,3
+1117,Having boyfriend issues has made me very worried,3
+1118,Having boyfriend issues has made me very anxious,3
+1119,Having boyfriend issues has made me very frustrated,3
+1120,Having boyfriend issues has made me very discontented,3
+1121,Having boyfriend issues has made me very hopeless,3
+1122,Having boyfriend issues has made me very irate,3
+1123,Having boyfriend issues has made me very melancholic,3
+1124,Having girlfriend issues has made me very unhappy,3
+1125,Having girlfriend issues has made me very stressed,3
+1126,Having girlfriend issues has made me very confused,3
+1127,Having girlfriend issues has made me very worried,3
+1128,Having girlfriend issues has made me very anxious,3
+1129,Having girlfriend issues has made me very frustrated,3
+1130,Having girlfriend issues has made me very discontented,3
+1131,Having girlfriend issues has made me very hopeless,3
+1132,Having girlfriend issues has made me very irate,3
+1133,Having girlfriend issues has made me very melancholic,3
+1134,Having classmate issues has made me very unhappy,3
+1135,Having classmate issues has made me very stressed,3
+1136,Having classmate issues has made me very confused,3
+1137,Having classmate issues has made me very worried,3
+1138,Having classmate issues has made me very anxious,3
+1139,Having classmate issues has made me very frustrated,3
+1140,Having classmate issues has made me very discontented,3
+1141,Having classmate issues has made me very hopeless,3
+1142,Having classmate issues has made me very irate,3
+1143,Having classmate issues has made me very melancholic,3
+1144,Having best friend issues has made me very unhappy,3
+1145,Having best friend issues has made me very stressed,3
+1146,Having best friend issues has made me very confused,3
+1147,Having best friend issues has made me very worried,3
+1148,Having best friend issues has made me very anxious,3
+1149,Having best friend issues has made me very frustrated,3
+1150,Having best friend issues has made me very discontented,3
+1151,Having best friend issues has made me very hopeless,3
+1152,Having best friend issues has made me very irate,3
+1153,Having best friend issues has made me very melancholic,3
+1154,Having colleague issues has made me very unhappy,3
+1155,Having colleague issues has made me very stressed,3
+1156,Having colleague issues has made me very confused,3
+1157,Having colleague issues has made me very worried,3
+1158,Having colleague issues has made me very anxious,3
+1159,Having colleague issues has made me very frustrated,3
+1160,Having colleague issues has made me very discontented,3
+1161,Having colleague issues has made me very hopeless,3
+1162,Having colleague issues has made me very irate,3
+1163,Having colleague issues has made me very melancholic,3
+1164,Having partner issues has made me very unhappy,3
+1165,Having partner issues has made me very stressed,3
+1166,Having partner issues has made me very confused,3
+1167,Having partner issues has made me very worried,3
+1168,Having partner issues has made me very anxious,3
+1169,Having partner issues has made me very frustrated,3
+1170,Having partner issues has made me very discontented,3
+1171,Having partner issues has made me very hopeless,3
+1172,Having partner issues has made me very irate,3
+1173,Having partner issues has made me very melancholic,3
+1174,Having sibling issues has made me very unhappy,3
+1175,Having sibling issues has made me very stressed,3
+1176,Having sibling issues has made me very confused,3
+1177,Having sibling issues has made me very worried,3
+1178,Having sibling issues has made me very anxious,3
+1179,Having sibling issues has made me very frustrated,3
+1180,Having sibling issues has made me very discontented,3
+1181,Having sibling issues has made me very hopeless,3
+1182,Having sibling issues has made me very irate,3
+1183,Having sibling issues has made me very melancholic,3
+1184,Having mentor issues has made me very unhappy,3
+1185,Having mentor issues has made me very stressed,3
+1186,Having mentor issues has made me very confused,3
+1187,Having mentor issues has made me very worried,3
+1188,Having mentor issues has made me very anxious,3
+1189,Having mentor issues has made me very frustrated,3
+1190,Having mentor issues has made me very discontented,3
+1191,Having mentor issues has made me very hopeless,3
+1192,Having mentor issues has made me very irate,3
+1193,Having mentor issues has made me very melancholic,3
+1194,Having acquaintance issues has made me very unhappy,3
+1195,Having acquaintance issues has made me very stressed,3
+1196,Having acquaintance issues has made me very confused,3
+1197,Having acquaintance issues has made me very worried,3
+1198,Having acquaintance issues has made me very anxious,3
+1199,Having acquaintance issues has made me very frustrated,3
+1200,Having acquaintance issues has made me very discontented,3
+1201,Having acquaintance issues has made me very hopeless,3
+1202,Having acquaintance issues has made me very irate,3
+1203,Having acquaintance issues has made me very melancholic,3
+1204,I rely on my friend for emotional support,3
+1205,I rely on my boyfriend for emotional support,3
+1206,I rely on my girlfriend for emotional support,3
+1207,I rely on my classmate for emotional support,3
+1208,I rely on my best friend for emotional support,3
+1209,I rely on my colleague for emotional support,3
+1210,I rely on my partner for emotional support,3
+1211,I rely on my sibling for emotional support,3
+1212,I rely on my mentor for emotional support,3
+1213,I rely on my acquaintance for emotional support,3
+1214,Misunderstandings with my friend are frequent and make me feel unhappy,3
+1215,Misunderstandings with my friend are frequent and make me feel stressed,3
+1216,Misunderstandings with my friend are frequent and make me feel confused,3
+1217,Misunderstandings with my friend are frequent and make me feel worried,3
+1218,Misunderstandings with my friend are frequent and make me feel anxious,3
+1219,Misunderstandings with my friend are frequent and make me feel frustrated,3
+1220,Misunderstandings with my friend are frequent and make me feel discontented,3
+1221,Misunderstandings with my friend are frequent and make me feel hopeless,3
+1222,Misunderstandings with my friend are frequent and make me feel irate,3
+1223,Misunderstandings with my friend are frequent and make me feel melancholic,3
+1224,Misunderstandings with my boyfriend are frequent and make me feel unhappy,3
+1225,Misunderstandings with my boyfriend are frequent and make me feel stressed,3
+1226,Misunderstandings with my boyfriend are frequent and make me feel confused,3
+1227,Misunderstandings with my boyfriend are frequent and make me feel worried,3
+1228,Misunderstandings with my boyfriend are frequent and make me feel anxious,3
+1229,Misunderstandings with my boyfriend are frequent and make me feel frustrated,3
+1230,Misunderstandings with my boyfriend are frequent and make me feel discontented,3
+1231,Misunderstandings with my boyfriend are frequent and make me feel hopeless,3
+1232,Misunderstandings with my boyfriend are frequent and make me feel irate,3
+1233,Misunderstandings with my boyfriend are frequent and make me feel melancholic,3
+1234,Misunderstandings with my girlfriend are frequent and make me feel unhappy,3
+1235,Misunderstandings with my girlfriend are frequent and make me feel stressed,3
+1236,Misunderstandings with my girlfriend are frequent and make me feel confused,3
+1237,Misunderstandings with my girlfriend are frequent and make me feel worried,3
+1238,Misunderstandings with my girlfriend are frequent and make me feel anxious,3
+1239,Misunderstandings with my girlfriend are frequent and make me feel frustrated,3
+1240,Misunderstandings with my girlfriend are frequent and make me feel discontented,3
+1241,Misunderstandings with my girlfriend are frequent and make me feel hopeless,3
+1242,Misunderstandings with my girlfriend are frequent and make me feel irate,3
+1243,Misunderstandings with my girlfriend are frequent and make me feel melancholic,3
+1244,Misunderstandings with my classmate are frequent and make me feel unhappy,3
+1245,Misunderstandings with my classmate are frequent and make me feel stressed,3
+1246,Misunderstandings with my classmate are frequent and make me feel confused,3
+1247,Misunderstandings with my classmate are frequent and make me feel worried,3
+1248,Misunderstandings with my classmate are frequent and make me feel anxious,3
+1249,Misunderstandings with my classmate are frequent and make me feel frustrated,3
+1250,Misunderstandings with my classmate are frequent and make me feel discontented,3
+1251,Misunderstandings with my classmate are frequent and make me feel hopeless,3
+1252,Misunderstandings with my classmate are frequent and make me feel irate,3
+1253,Misunderstandings with my classmate are frequent and make me feel melancholic,3
+1254,Misunderstandings with my best friend are frequent and make me feel unhappy,3
+1255,Misunderstandings with my best friend are frequent and make me feel stressed,3
+1256,Misunderstandings with my best friend are frequent and make me feel confused,3
+1257,Misunderstandings with my best friend are frequent and make me feel worried,3
+1258,Misunderstandings with my best friend are frequent and make me feel anxious,3
+1259,Misunderstandings with my best friend are frequent and make me feel frustrated,3
+1260,Misunderstandings with my best friend are frequent and make me feel discontented,3
+1261,Misunderstandings with my best friend are frequent and make me feel hopeless,3
+1262,Misunderstandings with my best friend are frequent and make me feel irate,3
+1263,Misunderstandings with my best friend are frequent and make me feel melancholic,3
+1264,Misunderstandings with my colleague are frequent and make me feel unhappy,3
+1265,Misunderstandings with my colleague are frequent and make me feel stressed,3
+1266,Misunderstandings with my colleague are frequent and make me feel confused,3
+1267,Misunderstandings with my colleague are frequent and make me feel worried,3
+1268,Misunderstandings with my colleague are frequent and make me feel anxious,3
+1269,Misunderstandings with my colleague are frequent and make me feel frustrated,3
+1270,Misunderstandings with my colleague are frequent and make me feel discontented,3
+1271,Misunderstandings with my colleague are frequent and make me feel hopeless,3
+1272,Misunderstandings with my colleague are frequent and make me feel irate,3
+1273,Misunderstandings with my colleague are frequent and make me feel melancholic,3
+1274,Misunderstandings with my partner are frequent and make me feel unhappy,3
+1275,Misunderstandings with my partner are frequent and make me feel stressed,3
+1276,Misunderstandings with my partner are frequent and make me feel confused,3
+1277,Misunderstandings with my partner are frequent and make me feel worried,3
+1278,Misunderstandings with my partner are frequent and make me feel anxious,3
+1279,Misunderstandings with my partner are frequent and make me feel frustrated,3
+1280,Misunderstandings with my partner are frequent and make me feel discontented,3
+1281,Misunderstandings with my partner are frequent and make me feel hopeless,3
+1282,Misunderstandings with my partner are frequent and make me feel irate,3
+1283,Misunderstandings with my partner are frequent and make me feel melancholic,3
+1284,Misunderstandings with my sibling are frequent and make me feel unhappy,3
+1285,Misunderstandings with my sibling are frequent and make me feel stressed,3
+1286,Misunderstandings with my sibling are frequent and make me feel confused,3
+1287,Misunderstandings with my sibling are frequent and make me feel worried,3
+1288,Misunderstandings with my sibling are frequent and make me feel anxious,3
+1289,Misunderstandings with my sibling are frequent and make me feel frustrated,3
+1290,Misunderstandings with my sibling are frequent and make me feel discontented,3
+1291,Misunderstandings with my sibling are frequent and make me feel hopeless,3
+1292,Misunderstandings with my sibling are frequent and make me feel irate,3
+1293,Misunderstandings with my sibling are frequent and make me feel melancholic,3
+1294,Misunderstandings with my mentor are frequent and make me feel unhappy,3
+1295,Misunderstandings with my mentor are frequent and make me feel stressed,3
+1296,Misunderstandings with my mentor are frequent and make me feel confused,3
+1297,Misunderstandings with my mentor are frequent and make me feel worried,3
+1298,Misunderstandings with my mentor are frequent and make me feel anxious,3
+1299,Misunderstandings with my mentor are frequent and make me feel frustrated,3
+1300,Misunderstandings with my mentor are frequent and make me feel discontented,3
+1301,Misunderstandings with my mentor are frequent and make me feel hopeless,3
+1302,Misunderstandings with my mentor are frequent and make me feel irate,3
+1303,Misunderstandings with my mentor are frequent and make me feel melancholic,3
+1304,Misunderstandings with my acquaintance are frequent and make me feel unhappy,3
+1305,Misunderstandings with my acquaintance are frequent and make me feel stressed,3
+1306,Misunderstandings with my acquaintance are frequent and make me feel confused,3
+1307,Misunderstandings with my acquaintance are frequent and make me feel worried,3
+1308,Misunderstandings with my acquaintance are frequent and make me feel anxious,3
+1309,Misunderstandings with my acquaintance are frequent and make me feel frustrated,3
+1310,Misunderstandings with my acquaintance are frequent and make me feel discontented,3
+1311,Misunderstandings with my acquaintance are frequent and make me feel hopeless,3
+1312,Misunderstandings with my acquaintance are frequent and make me feel irate,3
+1313,Misunderstandings with my acquaintance are frequent and make me feel melancholic,3
+1314,I'm considering ending my relationship with my friend,3
+1315,I'm considering ending my relationship with my boyfriend,3
+1316,I'm considering ending my relationship with my girlfriend,3
+1317,I'm considering ending my relationship with my classmate,3
+1318,I'm considering ending my relationship with my best friend,3
+1319,I'm considering ending my relationship with my colleague,3
+1320,I'm considering ending my relationship with my partner,3
+1321,I'm considering ending my relationship with my sibling,3
+1322,I'm considering ending my relationship with my mentor,3
+1323,I'm considering ending my relationship with my acquaintance,3
+1324,Feeling disconnected from my friend has been hard,3
+1325,Feeling disconnected from my boyfriend has been hard,3
+1326,Feeling disconnected from my girlfriend has been hard,3
+1327,Feeling disconnected from my classmate has been hard,3
+1328,Feeling disconnected from my best friend has been hard,3
+1329,Feeling disconnected from my colleague has been hard,3
+1330,Feeling disconnected from my partner has been hard,3
+1331,Feeling disconnected from my sibling has been hard,3
+1332,Feeling disconnected from my mentor has been hard,3
+1333,Feeling disconnected from my acquaintance has been hard,3
+1334,I need advice on how to handle conflicts with my friend,3
+1335,I need advice on how to handle conflicts with my boyfriend,3
+1336,I need advice on how to handle conflicts with my girlfriend,3
+1337,I need advice on how to handle conflicts with my classmate,3
+1338,I need advice on how to handle conflicts with my best friend,3
+1339,I need advice on how to handle conflicts with my colleague,3
+1340,I need advice on how to handle conflicts with my partner,3
+1341,I need advice on how to handle conflicts with my sibling,3
+1342,I need advice on how to handle conflicts with my mentor,3
+1343,I need advice on how to handle conflicts with my acquaintance,3
+1344,Trust issues with my friend are causing me stress,3
+1345,Trust issues with my boyfriend are causing me stress,3
+1346,Trust issues with my girlfriend are causing me stress,3
+1347,Trust issues with my classmate are causing me stress,3
+1348,Trust issues with my best friend are causing me stress,3
+1349,Trust issues with my colleague are causing me stress,3
+1350,Trust issues with my partner are causing me stress,3
+1351,Trust issues with my sibling are causing me stress,3
+1352,Trust issues with my mentor are causing me stress,3
+1353,Trust issues with my acquaintance are causing me stress,3
+1354,Communication gaps with my friend are becoming common,3
+1355,Communication gaps with my boyfriend are becoming common,3
+1356,Communication gaps with my girlfriend are becoming common,3
+1357,Communication gaps with my classmate are becoming common,3
+1358,Communication gaps with my best friend are becoming common,3
+1359,Communication gaps with my colleague are becoming common,3
+1360,Communication gaps with my partner are becoming common,3
+1361,Communication gaps with my sibling are becoming common,3
+1362,Communication gaps with my mentor are becoming common,3
+1363,Communication gaps with my acquaintance are becoming common,3
+1364,It's hard to express my feelings to my friend,3
+1365,It's hard to express my feelings to my boyfriend,3
+1366,It's hard to express my feelings to my girlfriend,3
+1367,It's hard to express my feelings to my classmate,3
+1368,It's hard to express my feelings to my best friend,3
+1369,It's hard to express my feelings to my colleague,3
+1370,It's hard to express my feelings to my partner,3
+1371,It's hard to express my feelings to my sibling,3
+1372,It's hard to express my feelings to my mentor,3
+1373,It's hard to express my feelings to my acquaintance,3
+1374,Sometimes I doubt the future of my relationship with friend,3
+1375,Sometimes I doubt the future of my relationship with boyfriend,3
+1376,Sometimes I doubt the future of my relationship with girlfriend,3
+1377,Sometimes I doubt the future of my relationship with classmate,3
+1378,Sometimes I doubt the future of my relationship with best friend,3
+1379,Sometimes I doubt the future of my relationship with colleague,3
+1380,Sometimes I doubt the future of my relationship with partner,3
+1381,Sometimes I doubt the future of my relationship with sibling,3
+1382,Sometimes I doubt the future of my relationship with mentor,3
+1383,Sometimes I doubt the future of my relationship with acquaintance,3
+1384,"We used to be close, but now I feel lonely around my friend",3
+1385,"We used to be close, but now I feel lonely around my boyfriend",3
+1386,"We used to be close, but now I feel lonely around my girlfriend",3
+1387,"We used to be close, but now I feel lonely around my classmate",3
+1388,"We used to be close, but now I feel lonely around my best friend",3
+1389,"We used to be close, but now I feel lonely around my colleague",3
+1390,"We used to be close, but now I feel lonely around my partner",3
+1391,"We used to be close, but now I feel lonely around my sibling",3
+1392,"We used to be close, but now I feel lonely around my mentor",3
+1393,"We used to be close, but now I feel lonely around my acquaintance",3
+1394,"We used to be close, but now I feel overwhelmed around my friend",3
+1395,"We used to be close, but now I feel overwhelmed around my boyfriend",3
+1396,"We used to be close, but now I feel overwhelmed around my girlfriend",3
+1397,"We used to be close, but now I feel overwhelmed around my classmate",3
+1398,"We used to be close, but now I feel overwhelmed around my best friend",3
+1399,"We used to be close, but now I feel overwhelmed around my colleague",3
+1400,"We used to be close, but now I feel overwhelmed around my partner",3
+1401,"We used to be close, but now I feel overwhelmed around my sibling",3
+1402,"We used to be close, but now I feel overwhelmed around my mentor",3
+1403,"We used to be close, but now I feel overwhelmed around my acquaintance",3
+1404,"We used to be close, but now I feel excited around my friend",3
+1405,"We used to be close, but now I feel excited around my boyfriend",3
+1406,"We used to be close, but now I feel excited around my girlfriend",3
+1407,"We used to be close, but now I feel excited around my classmate",3
+1408,"We used to be close, but now I feel excited around my best friend",3
+1409,"We used to be close, but now I feel excited around my colleague",3
+1410,"We used to be close, but now I feel excited around my partner",3
+1411,"We used to be close, but now I feel excited around my sibling",3
+1412,"We used to be close, but now I feel excited around my mentor",3
+1413,"We used to be close, but now I feel excited around my acquaintance",3
+1414,"We used to be close, but now I feel nervous around my friend",3
+1415,"We used to be close, but now I feel nervous around my boyfriend",3
+1416,"We used to be close, but now I feel nervous around my girlfriend",3
+1417,"We used to be close, but now I feel nervous around my classmate",3
+1418,"We used to be close, but now I feel nervous around my best friend",3
+1419,"We used to be close, but now I feel nervous around my colleague",3
+1420,"We used to be close, but now I feel nervous around my partner",3
+1421,"We used to be close, but now I feel nervous around my sibling",3
+1422,"We used to be close, but now I feel nervous around my mentor",3
+1423,"We used to be close, but now I feel nervous around my acquaintance",3
+1424,"We used to be close, but now I feel sad around my friend",3
+1425,"We used to be close, but now I feel sad around my boyfriend",3
+1426,"We used to be close, but now I feel sad around my girlfriend",3
+1427,"We used to be close, but now I feel sad around my classmate",3
+1428,"We used to be close, but now I feel sad around my best friend",3
+1429,"We used to be close, but now I feel sad around my colleague",3
+1430,"We used to be close, but now I feel sad around my partner",3
+1431,"We used to be close, but now I feel sad around my sibling",3
+1432,"We used to be close, but now I feel sad around my mentor",3
+1433,"We used to be close, but now I feel sad around my acquaintance",3
+1434,"We used to be close, but now I feel joyful around my friend",3
+1435,"We used to be close, but now I feel joyful around my boyfriend",3
+1436,"We used to be close, but now I feel joyful around my girlfriend",3
+1437,"We used to be close, but now I feel joyful around my classmate",3
+1438,"We used to be close, but now I feel joyful around my best friend",3
+1439,"We used to be close, but now I feel joyful around my colleague",3
+1440,"We used to be close, but now I feel joyful around my partner",3
+1441,"We used to be close, but now I feel joyful around my sibling",3
+1442,"We used to be close, but now I feel joyful around my mentor",3
+1443,"We used to be close, but now I feel joyful around my acquaintance",3
+1444,"We used to be close, but now I feel fearful around my friend",3
+1445,"We used to be close, but now I feel fearful around my boyfriend",3
+1446,"We used to be close, but now I feel fearful around my girlfriend",3
+1447,"We used to be close, but now I feel fearful around my classmate",3
+1448,"We used to be close, but now I feel fearful around my best friend",3
+1449,"We used to be close, but now I feel fearful around my colleague",3
+1450,"We used to be close, but now I feel fearful around my partner",3
+1451,"We used to be close, but now I feel fearful around my sibling",3
+1452,"We used to be close, but now I feel fearful around my mentor",3
+1453,"We used to be close, but now I feel fearful around my acquaintance",3
+1454,"We used to be close, but now I feel content around my friend",3
+1455,"We used to be close, but now I feel content around my boyfriend",3
+1456,"We used to be close, but now I feel content around my girlfriend",3
+1457,"We used to be close, but now I feel content around my classmate",3
+1458,"We used to be close, but now I feel content around my best friend",3
+1459,"We used to be close, but now I feel content around my colleague",3
+1460,"We used to be close, but now I feel content around my partner",3
+1461,"We used to be close, but now I feel content around my sibling",3
+1462,"We used to be close, but now I feel content around my mentor",3
+1463,"We used to be close, but now I feel content around my acquaintance",3
+1464,"We used to be close, but now I feel anxious around my friend",3
+1465,"We used to be close, but now I feel anxious around my boyfriend",3
+1466,"We used to be close, but now I feel anxious around my girlfriend",3
+1467,"We used to be close, but now I feel anxious around my classmate",3
+1468,"We used to be close, but now I feel anxious around my best friend",3
+1469,"We used to be close, but now I feel anxious around my colleague",3
+1470,"We used to be close, but now I feel anxious around my partner",3
+1471,"We used to be close, but now I feel anxious around my sibling",3
+1472,"We used to be close, but now I feel anxious around my mentor",3
+1473,"We used to be close, but now I feel anxious around my acquaintance",3
+1474,"We used to be close, but now I feel hopeful around my friend",3
+1475,"We used to be close, but now I feel hopeful around my boyfriend",3
+1476,"We used to be close, but now I feel hopeful around my girlfriend",3
+1477,"We used to be close, but now I feel hopeful around my classmate",3
+1478,"We used to be close, but now I feel hopeful around my best friend",3
+1479,"We used to be close, but now I feel hopeful around my colleague",3
+1480,"We used to be close, but now I feel hopeful around my partner",3
+1481,"We used to be close, but now I feel hopeful around my sibling",3
+1482,"We used to be close, but now I feel hopeful around my mentor",3
+1483,"We used to be close, but now I feel hopeful around my acquaintance",3
+1484,It's been difficult to forgive my friend after what happened,3
+1485,It's been difficult to forgive my boyfriend after what happened,3
+1486,It's been difficult to forgive my girlfriend after what happened,3
+1487,It's been difficult to forgive my classmate after what happened,3
+1488,It's been difficult to forgive my best friend after what happened,3
+1489,It's been difficult to forgive my colleague after what happened,3
+1490,It's been difficult to forgive my partner after what happened,3
+1491,It's been difficult to forgive my sibling after what happened,3
+1492,It's been difficult to forgive my mentor after what happened,3
+1493,It's been difficult to forgive my acquaintance after what happened,3
+1494,Our relationship has been very unhappy lately,3
+1495,Our relationship has been very stressed lately,3
+1496,Our relationship has been very confused lately,3
+1497,Our relationship has been very worried lately,3
+1498,Our relationship has been very anxious lately,3
+1499,Our relationship has been very frustrated lately,3
+1500,Our relationship has been very discontented lately,3
+1501,Our relationship has been very hopeless lately,3
+1502,Our relationship has been very irate lately,3
+1503,Our relationship has been very melancholic lately,3
+1504,I often feel unhappy when I think about my relationship with friend,3
+1505,I often feel unhappy when I think about my relationship with boyfriend,3
+1506,I often feel unhappy when I think about my relationship with girlfriend,3
+1507,I often feel unhappy when I think about my relationship with classmate,3
+1508,I often feel unhappy when I think about my relationship with best friend,3
+1509,I often feel unhappy when I think about my relationship with colleague,3
+1510,I often feel unhappy when I think about my relationship with partner,3
+1511,I often feel unhappy when I think about my relationship with sibling,3
+1512,I often feel unhappy when I think about my relationship with mentor,3
+1513,I often feel unhappy when I think about my relationship with acquaintance,3
+1514,I often feel stressed when I think about my relationship with friend,3
+1515,I often feel stressed when I think about my relationship with boyfriend,3
+1516,I often feel stressed when I think about my relationship with girlfriend,3
+1517,I often feel stressed when I think about my relationship with classmate,3
+1518,I often feel stressed when I think about my relationship with best friend,3
+1519,I often feel stressed when I think about my relationship with colleague,3
+1520,I often feel stressed when I think about my relationship with partner,3
+1521,I often feel stressed when I think about my relationship with sibling,3
+1522,I often feel stressed when I think about my relationship with mentor,3
+1523,I often feel stressed when I think about my relationship with acquaintance,3
+1524,I often feel confused when I think about my relationship with friend,3
+1525,I often feel confused when I think about my relationship with boyfriend,3
+1526,I often feel confused when I think about my relationship with girlfriend,3
+1527,I often feel confused when I think about my relationship with classmate,3
+1528,I often feel confused when I think about my relationship with best friend,3
+1529,I often feel confused when I think about my relationship with colleague,3
+1530,I often feel confused when I think about my relationship with partner,3
+1531,I often feel confused when I think about my relationship with sibling,3
+1532,I often feel confused when I think about my relationship with mentor,3
+1533,I often feel confused when I think about my relationship with acquaintance,3
+1534,I often feel worried when I think about my relationship with friend,3
+1535,I often feel worried when I think about my relationship with boyfriend,3
+1536,I often feel worried when I think about my relationship with girlfriend,3
+1537,I often feel worried when I think about my relationship with classmate,3
+1538,I often feel worried when I think about my relationship with best friend,3
+1539,I often feel worried when I think about my relationship with colleague,3
+1540,I often feel worried when I think about my relationship with partner,3
+1541,I often feel worried when I think about my relationship with sibling,3
+1542,I often feel worried when I think about my relationship with mentor,3
+1543,I often feel worried when I think about my relationship with acquaintance,3
+1544,I often feel anxious when I think about my relationship with friend,3
+1545,I often feel anxious when I think about my relationship with boyfriend,3
+1546,I often feel anxious when I think about my relationship with girlfriend,3
+1547,I often feel anxious when I think about my relationship with classmate,3
+1548,I often feel anxious when I think about my relationship with best friend,3
+1549,I often feel anxious when I think about my relationship with colleague,3
+1550,I often feel anxious when I think about my relationship with partner,3
+1551,I often feel anxious when I think about my relationship with sibling,3
+1552,I often feel anxious when I think about my relationship with mentor,3
+1553,I often feel anxious when I think about my relationship with acquaintance,3
+1554,I often feel frustrated when I think about my relationship with friend,3
+1555,I often feel frustrated when I think about my relationship with boyfriend,3
+1556,I often feel frustrated when I think about my relationship with girlfriend,3
+1557,I often feel frustrated when I think about my relationship with classmate,3
+1558,I often feel frustrated when I think about my relationship with best friend,3
+1559,I often feel frustrated when I think about my relationship with colleague,3
+1560,I often feel frustrated when I think about my relationship with partner,3
+1561,I often feel frustrated when I think about my relationship with sibling,3
+1562,I often feel frustrated when I think about my relationship with mentor,3
+1563,I often feel frustrated when I think about my relationship with acquaintance,3
+1564,I often feel discontented when I think about my relationship with friend,3
+1565,I often feel discontented when I think about my relationship with boyfriend,3
+1566,I often feel discontented when I think about my relationship with girlfriend,3
+1567,I often feel discontented when I think about my relationship with classmate,3
+1568,I often feel discontented when I think about my relationship with best friend,3
+1569,I often feel discontented when I think about my relationship with colleague,3
+1570,I often feel discontented when I think about my relationship with partner,3
+1571,I often feel discontented when I think about my relationship with sibling,3
+1572,I often feel discontented when I think about my relationship with mentor,3
+1573,I often feel discontented when I think about my relationship with acquaintance,3
+1574,I often feel hopeless when I think about my relationship with friend,3
+1575,I often feel hopeless when I think about my relationship with boyfriend,3
+1576,I often feel hopeless when I think about my relationship with girlfriend,3
+1577,I often feel hopeless when I think about my relationship with classmate,3
+1578,I often feel hopeless when I think about my relationship with best friend,3
+1579,I often feel hopeless when I think about my relationship with colleague,3
+1580,I often feel hopeless when I think about my relationship with partner,3
+1581,I often feel hopeless when I think about my relationship with sibling,3
+1582,I often feel hopeless when I think about my relationship with mentor,3
+1583,I often feel hopeless when I think about my relationship with acquaintance,3
+1584,I often feel irate when I think about my relationship with friend,3
+1585,I often feel irate when I think about my relationship with boyfriend,3
+1586,I often feel irate when I think about my relationship with girlfriend,3
+1587,I often feel irate when I think about my relationship with classmate,3
+1588,I often feel irate when I think about my relationship with best friend,3
+1589,I often feel irate when I think about my relationship with colleague,3
+1590,I often feel irate when I think about my relationship with partner,3
+1591,I often feel irate when I think about my relationship with sibling,3
+1592,I often feel irate when I think about my relationship with mentor,3
+1593,I often feel irate when I think about my relationship with acquaintance,3
+1594,I often feel melancholic when I think about my relationship with friend,3
+1595,I often feel melancholic when I think about my relationship with boyfriend,3
+1596,I often feel melancholic when I think about my relationship with girlfriend,3
+1597,I often feel melancholic when I think about my relationship with classmate,3
+1598,I often feel melancholic when I think about my relationship with best friend,3
+1599,I often feel melancholic when I think about my relationship with colleague,3
+1600,I often feel melancholic when I think about my relationship with partner,3
+1601,I often feel melancholic when I think about my relationship with sibling,3
+1602,I often feel melancholic when I think about my relationship with mentor,3
+1603,I often feel melancholic when I think about my relationship with acquaintance,3
+1604,Rebuilding trust with my friend seems daunting,3
+1605,Rebuilding trust with my boyfriend seems daunting,3
+1606,Rebuilding trust with my girlfriend seems daunting,3
+1607,Rebuilding trust with my classmate seems daunting,3
+1608,Rebuilding trust with my best friend seems daunting,3
+1609,Rebuilding trust with my colleague seems daunting,3
+1610,Rebuilding trust with my partner seems daunting,3
+1611,Rebuilding trust with my sibling seems daunting,3
+1612,Rebuilding trust with my mentor seems daunting,3
+1613,Rebuilding trust with my acquaintance seems daunting,3
+1614,My friend and I are working on better understanding each other,3
+1615,My boyfriend and I are working on better understanding each other,3
+1616,My girlfriend and I are working on better understanding each other,3
+1617,My classmate and I are working on better understanding each other,3
+1618,My best friend and I are working on better understanding each other,3
+1619,My colleague and I are working on better understanding each other,3
+1620,My partner and I are working on better understanding each other,3
+1621,My sibling and I are working on better understanding each other,3
+1622,My mentor and I are working on better understanding each other,3
+1623,My acquaintance and I are working on better understanding each other,3
+1624,I'm not sure how to balance school and my hobbies,4
+1625,I'm feeling lonely about my future,4
+1626,I'm feeling overwhelmed about my future,4
+1627,I'm feeling excited about my future,4
+1628,I'm feeling nervous about my future,4
+1629,I'm feeling sad about my future,4
+1630,I'm feeling joyful about my future,4
+1631,I'm feeling fearful about my future,4
+1632,I'm feeling content about my future,4
+1633,I'm feeling anxious about my future,4
+1634,I'm feeling hopeful about my future,4
+1635,"My schedule is becoming a burden, and I'm always unhappy",4
+1636,"My schedule is becoming a burden, and I'm always stressed",4
+1637,"My schedule is becoming a burden, and I'm always confused",4
+1638,"My schedule is becoming a burden, and I'm always worried",4
+1639,"My schedule is becoming a burden, and I'm always anxious",4
+1640,"My schedule is becoming a burden, and I'm always frustrated",4
+1641,"My schedule is becoming a burden, and I'm always discontented",4
+1642,"My schedule is becoming a burden, and I'm always hopeless",4
+1643,"My schedule is becoming a burden, and I'm always irate",4
+1644,"My schedule is becoming a burden, and I'm always melancholic",4
+1645,Finding a good balance between work and leisure is challenging,4
+1646,The uncertainty of what comes next makes me unhappy,4
+1647,The uncertainty of what comes next makes me stressed,4
+1648,The uncertainty of what comes next makes me confused,4
+1649,The uncertainty of what comes next makes me worried,4
+1650,The uncertainty of what comes next makes me anxious,4
+1651,The uncertainty of what comes next makes me frustrated,4
+1652,The uncertainty of what comes next makes me discontented,4
+1653,The uncertainty of what comes next makes me hopeless,4
+1654,The uncertainty of what comes next makes me irate,4
+1655,The uncertainty of what comes next makes me melancholic,4
+1656,I wish I had someone to talk to about my problems,4
+1657,I wish I had someone to talk to about my feelings,4
+1658,I wish I had someone to talk to about my thoughts,4
+1659,I wish I had someone to talk to about my confusion,4
+1660,I wish I had someone to talk to about my life,4
+1661,I wish I had someone to talk to about my challenges,4
+1662,I wish I had someone to talk to about my decisions,4
+1663,I wish I had someone to talk to about my dilemmas,4
+1664,I wish I had someone to talk to about my responsibilities,4
+1665,I wish I had someone to talk to about my opportunities,4
+1666,I feel unhappy about the choices I've made,4
+1667,I feel stressed about the choices I've made,4
+1668,I feel confused about the choices I've made,4
+1669,I feel worried about the choices I've made,4
+1670,I feel anxious about the choices I've made,4
+1671,I feel frustrated about the choices I've made,4
+1672,I feel discontented about the choices I've made,4
+1673,I feel hopeless about the choices I've made,4
+1674,I feel irate about the choices I've made,4
+1675,I feel melancholic about the choices I've made,4
+1676,It's hard to stay motivated with so much uncertainty,4
+1677,My plans for the future are causing me stress,4
+1678,I'm reconsidering my career path because I feel unhappy,4
+1679,I'm reconsidering my career path because I feel stressed,4
+1680,I'm reconsidering my career path because I feel confused,4
+1681,I'm reconsidering my career path because I feel worried,4
+1682,I'm reconsidering my career path because I feel anxious,4
+1683,I'm reconsidering my career path because I feel frustrated,4
+1684,I'm reconsidering my career path because I feel discontented,4
+1685,I'm reconsidering my career path because I feel hopeless,4
+1686,I'm reconsidering my career path because I feel irate,4
+1687,I'm reconsidering my career path because I feel melancholic,4
+1688,Making decisions about my life is increasingly difficult,4
+1689,I'm unsure how to approach my long-term goals,4
+1690,Life's unpredictability is making me feel very unhappy,4
+1691,Life's unpredictability is making me feel very stressed,4
+1692,Life's unpredictability is making me feel very confused,4
+1693,Life's unpredictability is making me feel very worried,4
+1694,Life's unpredictability is making me feel very anxious,4
+1695,Life's unpredictability is making me feel very frustrated,4
+1696,Life's unpredictability is making me feel very discontented,4
+1697,Life's unpredictability is making me feel very hopeless,4
+1698,Life's unpredictability is making me feel very irate,4
+1699,Life's unpredictability is making me feel very melancholic,4
+1700,I'm struggling to find my purpose and feel lonely,4
+1701,I'm struggling to find my purpose and feel overwhelmed,4
+1702,I'm struggling to find my purpose and feel excited,4
+1703,I'm struggling to find my purpose and feel nervous,4
+1704,I'm struggling to find my purpose and feel sad,4
+1705,I'm struggling to find my purpose and feel joyful,4
+1706,I'm struggling to find my purpose and feel fearful,4
+1707,I'm struggling to find my purpose and feel content,4
+1708,I'm struggling to find my purpose and feel anxious,4
+1709,I'm struggling to find my purpose and feel hopeful,4
+1710,Adjusting to new changes has been unhappy,4
+1711,Adjusting to new changes has been stressed,4
+1712,Adjusting to new changes has been confused,4
+1713,Adjusting to new changes has been worried,4
+1714,Adjusting to new changes has been anxious,4
+1715,Adjusting to new changes has been frustrated,4
+1716,Adjusting to new changes has been discontented,4
+1717,Adjusting to new changes has been hopeless,4
+1718,Adjusting to new changes has been irate,4
+1719,Adjusting to new changes has been melancholic,4
+1720,Exploring different paths has left me feeling unhappy,4
+1721,Exploring different paths has left me feeling stressed,4
+1722,Exploring different paths has left me feeling confused,4
+1723,Exploring different paths has left me feeling worried,4
+1724,Exploring different paths has left me feeling anxious,4
+1725,Exploring different paths has left me feeling frustrated,4
+1726,Exploring different paths has left me feeling discontented,4
+1727,Exploring different paths has left me feeling hopeless,4
+1728,Exploring different paths has left me feeling irate,4
+1729,Exploring different paths has left me feeling melancholic,4
+1730,The pressure to succeed is overwhelming and makes me feel unhappy,4
+1731,The pressure to succeed is overwhelming and makes me feel stressed,4
+1732,The pressure to succeed is overwhelming and makes me feel confused,4
+1733,The pressure to succeed is overwhelming and makes me feel worried,4
+1734,The pressure to succeed is overwhelming and makes me feel anxious,4
+1735,The pressure to succeed is overwhelming and makes me feel frustrated,4
+1736,The pressure to succeed is overwhelming and makes me feel discontented,4
+1737,The pressure to succeed is overwhelming and makes me feel hopeless,4
+1738,The pressure to succeed is overwhelming and makes me feel irate,4
+1739,The pressure to succeed is overwhelming and makes me feel melancholic,4
+1740,I often ponder the direction my life is taking,4
+1741,Finding a career that fulfills me is becoming increasingly important,4

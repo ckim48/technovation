@@ -36,27 +36,23 @@
 
       <a href="{{url_for('index')}}" class="logo d-flex align-items-center ms-4">
         <img src="../static/img/logo.png" alt="">
+        <span class="ms-2">MindMate</span>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
 <!--          <li><a class="nav-link scrollto {%if active_page == 'profile' %}active{%endif%}" href="{{url_for('profile')}}">Profile</a></li>-->
-
           <li><a class="nav-link scrollto {%if active_page == 'consult' %}active{%endif%}" href="{{url_for('chatbot')}}">AI-Consult</a></li>
           {% if isAdmin %}
           <li><a class="nav-link scrollto {%if active_page == 'human' %}active{%endif%}" href="{{url_for('human')}}">Consult-Form</a></li>
           {% endif %}
-                      <li><a class="nav-link scrollto {%if active_page == 'reservation' %}active{%endif%}" href="{{url_for('reservation')}}">Reservation</a></li>
-
           {% if isAdmin %}
 <!--          <li><a class="nav-link scrollto {%if active_page == 'data' %}active{%endif%}" href="{{url_for('data')}}">Data</a></li>-->
                     <li><a class="nav-link scrollto {%if active_page == 'data' %}active{%endif%}" href="{{url_for('admin')}}">Admin</a></li>
 
             {% endif %}
-         {% if isLogin %}
-                                                       <li><a class="nav-link scrollto {%if active_page == 'profile' %}active{%endif%}" href="{{url_for('profile')}}">My Page</a></li>
-{% endif %}
           {% if isLogin %}
+          <li><a class="nav-link scrollto {%if active_page == 'reservation' %}active{%endif%}" href="{{url_for('reservation')}}">Reservation</a></li>
           <li><a class="getstarted scrollto" href="{{url_for('logout')}}">Logout</a></li>
 
           {% else %}
@@ -93,9 +89,6 @@
 
   {% block admin %}
   {% endblock %}
-
-  {% block user_reservations %}
-    {% endblock %}
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -106,20 +99,8 @@
   });
 </script>
 
-<!--  <script src="../static/js/main.js"></script>-->
+  <script src="../static/js/main.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.js'></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
-      const navbar = document.querySelector("#navbar");
-
-      mobileNavToggle.addEventListener("click", function () {
-        navbar.classList.toggle("navbar-mobile");
-        this.classList.toggle("bi-list");
-        this.classList.toggle("bi-x");
-      });
-    });
-  </script>
 </body>
 
 </html>
