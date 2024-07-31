@@ -5,8 +5,6 @@ from transformers import BertTokenizer, BertForSequenceClassification, Trainer, 
 from torch.utils.data import Dataset
 import torch
 import re
-import itertools
-
 
 words = {
     "adjective": [
